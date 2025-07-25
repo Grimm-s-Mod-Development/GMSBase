@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "#gmsb:tier5hammers",
+      "required": false
+    },
+    "gmsb:grimmite_hammer"
+  ]
+}

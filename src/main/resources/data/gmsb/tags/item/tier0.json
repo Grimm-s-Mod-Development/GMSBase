@@ -1,0 +1,28 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "#gmsb:tier2",
+      "required": false
+    },
+    {
+      "id": "#gmsb:tier3",
+      "required": false
+    },
+    {
+      "id": "#gmsb:tier4",
+      "required": false
+    },
+    "gmsb:zinc_ingot",
+    {
+      "id": "#gmsb:tier5",
+      "required": false
+    },
+    "gmsb:tin_ingot",
+    "gmsb:tier_0_item",
+    {
+      "id": "#gmsb:tier1",
+      "required": false
+    }
+  ]
+}

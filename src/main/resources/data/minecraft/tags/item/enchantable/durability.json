@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "gmsb:mortar_and_pestle",
+    "gmsb:netherite_hammer",
+    "gmsb:zinc_hammer",
+    "gmsb:tin_hammer",
+    "gmsb:iron_hammer",
+    "gmsb:steel_hammer",
+    "gmsb:wooden_hammer",
+    "gmsb:stone_hammer",
+    "gmsb:grimmite_hammer"
+  ]
+}

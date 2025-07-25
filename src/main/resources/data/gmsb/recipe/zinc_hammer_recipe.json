@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    " b "
+  ],
+  "key": {
+    "a": "gmsb:zinc_ingot",
+    "b": "minecraft:stick"
+  },
+  "result": {
+    "id": "gmsb:zinc_hammer",
+    "count": 1
+  }
+}

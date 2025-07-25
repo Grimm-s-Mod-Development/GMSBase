@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "a a",
+    "a a"
+  ],
+  "key": {
+    "a": "gmsb:tin_ingot"
+  },
+  "result": {
+    "id": "gmsb:tin_armor_boots",
+    "count": 1
+  }
+}

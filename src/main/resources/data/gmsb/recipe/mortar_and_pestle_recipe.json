@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "gmsb:mortar",
+    "gmsb:stone_stick"
+  ],
+  "result": {
+    "id": "gmsb:mortar_and_pestle",
+    "count": 1
+  }
+}

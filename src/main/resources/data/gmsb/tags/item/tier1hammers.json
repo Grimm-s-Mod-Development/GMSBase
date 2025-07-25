@@ -1,0 +1,24 @@
+{
+  "replace": false,
+  "values": [
+    "gmsb:zinc_hammer",
+    "gmsb:tin_hammer",
+    {
+      "id": "#gmsb:tier3hammers",
+      "required": false
+    },
+    "gmsb:iron_hammer",
+    {
+      "id": "#gmsb:tier5hammers",
+      "required": false
+    },
+    {
+      "id": "#gmsb:tier4hammers",
+      "required": false
+    },
+    {
+      "id": "#gmsb:tier2hammers",
+      "required": false
+    }
+  ]
+}

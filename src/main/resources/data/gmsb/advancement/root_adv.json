@@ -1,0 +1,23 @@
+{
+  "display": {
+    "background": "gmsb:textures/screens/blueprint.png",
+    "icon": {
+      "id": "gmsb:logo"
+    },
+    "title": {
+      "translate": "advancements.root_adv.title"
+    },
+    "description": {
+      "translate": "advancements.root_adv.descr"
+    },
+    "frame": "challenge",
+    "show_toast": false,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "root_adv_0": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

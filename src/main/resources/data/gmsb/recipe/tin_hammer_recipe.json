@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    " b "
+  ],
+  "key": {
+    "a": "gmsb:tin_ingot",
+    "b": "minecraft:stick"
+  },
+  "result": {
+    "id": "gmsb:tin_hammer",
+    "count": 1
+  }
+}

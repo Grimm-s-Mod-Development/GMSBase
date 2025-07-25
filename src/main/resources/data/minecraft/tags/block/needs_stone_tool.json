@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "gmsb:tin_block",
+    "gmsb:zinc_ore",
+    "gmsb:zinc_block",
+    "gmsb:tin_ore"
+  ]
+}

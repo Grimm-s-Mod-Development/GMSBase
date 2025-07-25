@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "gmsb:tier_4_item",
+    {
+      "id": "#gmsb:tier5",
+      "required": false
+    }
+  ]
+}

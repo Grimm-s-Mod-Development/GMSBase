@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "gmsb:grimmite_ingot"
+  ],
+  "result": {
+    "id": "gmsb:grimmite_nugget",
+    "count": 1
+  }
+}

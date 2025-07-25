@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "gmsb:floatinger",
+    {
+      "id": "#gmsb:tier5",
+      "required": false
+    },
+    "gmsb:tier_3_item",
+    {
+      "id": "#gmsb:tier4hammers",
+      "required": false
+    }
+  ]
+}

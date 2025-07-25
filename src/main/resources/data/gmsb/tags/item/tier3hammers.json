@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "gmsb:netherite_hammer",
+    {
+      "id": "#gmsb:tier5hammers",
+      "required": false
+    },
+    {
+      "id": "#gmsb:tier4hammers",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,1957 @@
+{
+  "mod_elements": [
+    {
+      "name": "BaseCreativeTab",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "base_creative_tab",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Creative Tabs"
+    },
+    {
+      "name": "Dummy",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dummy",
+      "metadata": {
+        "files": [
+          "src/main/java/org/gsdistance/grimm/gmsb/client/renderer/DummyRenderer.java",
+          "src/main/java/org/gsdistance/grimm/gmsb/entity/DummyEntity.java",
+          "src/main/resources/assets/gmsb/items/dummy_spawn_egg.json"
+        ]
+      },
+      "path": "~/Entitites"
+    },
+    {
+      "name": "DummyEntityIsHurt",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dummy_entity_is_hurt",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/org/gsdistance/grimm/gmsb/procedures/DummyEntityIsHurtProcedure.java"
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "LeThing",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "le_thing",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gmsb/models/item/le_thing.json",
+          "src/main/java/org/gsdistance/grimm/gmsb/item/LeThingItem.java",
+          "src/main/resources/assets/gmsb/items/le_thing.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "GrimmiteIngot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grimmite_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gmsb/items/grimmite_ingot.json",
+          "src/main/java/org/gsdistance/grimm/gmsb/item/GrimmiteIngotItem.java",
+          "src/main/resources/assets/gmsb/models/item/grimmite_ingot.json"
+        ]
+      },
+      "path": "~/Items/MaterialPack"
+    },
+    {
+      "name": "GrimmiteOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grimmite_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gmsb/loot_table/blocks/grimmite_ore.json",
+          "src/main/resources/assets/gmsb/items/grimmite_ore.json",
+          "src/main/resources/assets/gmsb/blockstates/grimmite_ore.json",
+          "src/main/java/org/gsdistance/grimm/gmsb/block/GrimmiteOreBlock.java",
+          "src/main/resources/data/gmsb/worldgen/placed_feature/grimmite_ore.json",
+          "src/main/resources/data/gmsb/neoforge/biome_modifier/grimmite_ore_biome_modifier.json",
+          "src/main/resources/data/gmsb/worldgen/configured_feature/grimmite_ore.json",
+          "src/main/resources/assets/gmsb/models/item/grimmite_ore.json",
+          "src/main/resources/assets/gmsb/models/block/grimmite_ore.json"
+        ]
+      },
+      "path": "~/Items/MaterialPack"
+    },
+    {
+      "name": "GrimmiteBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grimmite_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gmsb/models/block/grimmite_block.json",
+          "src/main/resources/data/gmsb/loot_table/blocks/grimmite_block.json",
+          "src/main/resources/assets/gmsb/models/item/grimmite_block.json",
+          "src/main/resources/assets/gmsb/blockstates/grimmite_block.json",
+          "src/main/resources/assets/gmsb/items/grimmite_block.json",
+          "src/main/java/org/gsdistance/grimm/gmsb/block/GrimmiteBlockBlock.java"
+        ]
+      },
+      "path": "~/Items/MaterialPack"
+    },
+    {
+      "name": "GrimmiteOreBlockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grimmite_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gmsb/advancement/recipes/grimmite_ore_block_recipe.json",
+          "src/main/resources/data/gmsb/recipe/grimmite_ore_block_recipe.json"
+        ]
+      },
+      "path": "~/Items/MaterialPack"
+    },
+    {
+      "name": "GrimmiteBlockOreRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grimmite_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gmsb/recipe/grimmite_block_ore_recipe.json",
+          "src/main/resources/data/gmsb/advancement/recipes/grimmite_block_ore_recipe.json"
+        ]
+      },
+      "path": "~/Items/MaterialPack"
+    },
+    {
+      "name": "GrimmiteOreSmelting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grimmite_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gmsb/recipe/grimmite_ore_smelting.json",
+          "src/main/resources/data/gmsb/advancement/recipes/grimmite_ore_smelting.json"
+        ]
+      },
+      "path": "~/Items/MaterialPack"
+    },
+    {
+      "name": "Mortar",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mortar",
+      "metadata": {
+        "files": [
+          "src/main/java/org/gsdistance/grimm/gmsb/item/MortarItem.java",
+          "src/main/resources/assets/gmsb/items/mortar.json",
+          "src/main/resources/assets/gmsb/models/item/mortar.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "MortarAndPestle",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mortar_and_pestle",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gmsb/items/mortar_and_pestle.json",
+          "src/main/resources/assets/gmsb/models/item/mortar_and_pestle.json",
+          "src/main/java/org/gsdistance/grimm/gmsb/item/MortarAndPestleItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "MortarRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mortar_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gmsb/recipe/mortar_recipe.json",
+          "src/main/resources/data/gmsb/advancement/recipes/mortar_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "StoneStick",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_stick",
+      "metadata": {
+        "files": [
+          "src/main/java/org/gsdistance/grimm/gmsb/item/StoneStickItem.java",
+          "src/main/resources/assets/gmsb/items/stone_stick.json",
+          "src/main/resources/assets/gmsb/models/item/stone_stick.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "StoneStickRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_stick_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gmsb/recipe/stone_stick_recipe.json",
+          "src/main/resources/data/gmsb/advancement/recipes/stone_stick_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "MortarAndPestleRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mortar_and_pestle_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gmsb/advancement/recipes/mortar_and_pestle_recipe.json",
+          "src/main/resources/data/gmsb/recipe/mortar_and_pestle_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Floatinger",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "floatinger",
+      "metadata": {
+        "files": [
+          "src/main/java/org/gsdistance/grimm/gmsb/item/FloatingerItem.java",
+          "src/main/resources/assets/gmsb/items/floatinger.json",
+          "src/main/resources/assets/gmsb/models/item/floatinger.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "TinCan",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tin_can",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gmsb/models/item/tin_can.json",
+          "src/main/resources/assets/gmsb/items/tin_can.json",
+          "src/main/java/org/gsdistance/grimm/gmsb/item/TinCanItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "TinSodaCan",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tin_soda_can",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gmsb/items/tin_soda_can.json",
+          "src/main/java/org/gsdistance/grimm/gmsb/item/TinSodaCanItem.java",
+          "src/main/resources/assets/gmsb/models/item/tin_soda_can.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "TinCanFull",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tin_can_full",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gmsb/items/tin_can_full.json",
+          "src/main/java/org/gsdistance/grimm/gmsb/item/TinCanFullItem.java",
+          "src/main/resources/assets/gmsb/models/item/tin_can_full.json"
+        ]
+      },
+      "path": "~/Items/Food"
+    },
+    {
+      "name": "PullTab",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pull_tab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gmsb/items/pull_tab.json",
+          "src/main/java/org/gsdistance/grimm/gmsb/item/PullTabItem.java",
+          "src/main/resources/assets/gmsb/models/item/pull_tab.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "TinCanFullRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tin_can_full_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gmsb/advancement/recipes/tin_can_full_recipe.json",
+          "src/main/resources/data/gmsb/recipe/tin_can_full_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "TinIngot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tin_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/org/gsdistance/grimm/gmsb/item/TinIngotItem.java",
+          "src/main/resources/assets/gmsb/models/item/tin_ingot.json",
+          "src/main/resources/assets/gmsb/items/tin_ingot.json"
+        ]
+      },
+      "path": "~/Items/MaterialPack"
+    },
+    {
+      "name": "TinOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tin_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gmsb/worldgen/configured_feature/tin_ore.json",
+          "src/main/resources/data/gmsb/worldgen/placed_feature/tin_ore.json",
+          "src/main/resources/assets/gmsb/blockstates/tin_ore.json",
+          "src/main/resources/data/gmsb/loot_table/blocks/tin_ore.json",
+          "src/main/java/org/gsdistance/grimm/gmsb/block/TinOreBlock.java",
+          "src/main/resources/data/gmsb/neoforge/biome_modifier/tin_ore_biome_modifier.json",
+          "src/main/resources/assets/gmsb/models/item/tin_ore.json",
+          "src/main/resources/assets/gmsb/items/tin_ore.json",
+          "src/main/resources/assets/gmsb/models/block/tin_ore.json"
+        ]
+      },
+      "path": "~/Items/MaterialPack"
+    },
+    {
+      "name": "TinBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tin_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gmsb/models/block/tin_block.json",
+          "src/main/resources/assets/gmsb/blockstates/tin_block.json",
+          "src/main/java/org/gsdistance/grimm/gmsb/block/TinBlockBlock.java",
+          "src/main/resources/data/gmsb/loot_table/blocks/tin_block.json",
+          "src/main/resources/assets/gmsb/models/item/tin_block.json",
+          "src/main/resources/assets/gmsb/items/tin_block.json"
+        ]
+      },
+      "path": "~/Items/MaterialPack"
+    },
+    {
+      "name": "TinOreBlockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tin_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gmsb/advancement/recipes/tin_ore_block_recipe.json",
+          "src/main/resources/data/gmsb/recipe/tin_ore_block_recipe.json"
+        ]
+      },
+      "path": "~/Items/MaterialPack"
+    },
+    {
+      "name": "TinBlockOreRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tin_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gmsb/recipe/tin_block_ore_recipe.json",
+          "src/main/resources/data/gmsb/advancement/recipes/tin_block_ore_recipe.json"
+        ]
+      },
+      "path": "~/Items/MaterialPack"
+    },
+    {
+      "name": "TinOreSmelting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tin_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gmsb/recipe/tin_ore_smelting.json",
+          "src/main/resources/data/gmsb/advancement/recipes/tin_ore_smelting.json"
+        ]
+      },
+      "path": "~/Items/MaterialPack"
+    },
+    {
+      "name": "TinPickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tin_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/org/gsdistance/grimm/gmsb/item/TinPickaxeItem.java",
+          "src/main/resources/assets/gmsb/items/tin_pickaxe.json",
+          "src/main/resources/assets/gmsb/models/item/tin_pickaxe.json"
+        ]
+      },
+      "path": "~/Items/ToolPack"
+    },
+    {
+      "name": "TinAxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tin_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gmsb/models/item/tin_axe.json",
+          "src/main/resources/assets/gmsb/items/tin_axe.json",
+          "src/main/java/org/gsdistance/grimm/gmsb/item/TinAxeItem.java"
+        ]
+      },
+      "path": "~/Items/ToolPack"
+    },
+    {
+      "name": "TinSword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tin_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gmsb/models/item/tin_sword.json",
+          "src/main/java/org/gsdistance/grimm/gmsb/item/TinSwordItem.java",
+          "src/main/resources/assets/gmsb/items/tin_sword.json"
+        ]
+      },
+      "path": "~/Items/ToolPack"
+    },
+    {
+      "name": "TinShovel",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tin_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gmsb/models/item/tin_shovel.json",
+          "src/main/java/org/gsdistance/grimm/gmsb/item/TinShovelItem.java",
+          "src/main/resources/assets/gmsb/items/tin_shovel.json"
+        ]
+      },
+      "path": "~/Items/ToolPack"
+    },
+    {
+      "name": "TinHoe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tin_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gmsb/models/item/tin_hoe.json",
+          "src/main/resources/assets/gmsb/items/tin_hoe.json",
+          "src/main/java/org/gsdistance/grimm/gmsb/item/TinHoeItem.java"
+        ]
+      },
+      "path": "~/Items/ToolPack"
+    },
+    {
+      "name": "TinPickaxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tin_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gmsb/advancement/recipes/tin_pickaxe_recipe.json",
+          "src/main/resources/data/gmsb/recipe/tin_pickaxe_recipe.json"
+        ]
+      },
+      "path": "~/Items/ToolPack"
+    },
+    {
+      "name": "TinAxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tin_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gmsb/advancement/recipes/tin_axe_recipe.json",
+          "src/main/resources/data/gmsb/recipe/tin_axe_recipe.json"
+        ]
+      },
+      "path": "~/Items/ToolPack"
+    },
+    {
+      "name": "TinSwordRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tin_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gmsb/recipe/tin_sword_recipe.json",
+          "src/main/resources/data/gmsb/advancement/recipes/tin_sword_recipe.json"
+        ]
+      },
+      "path": "~/Items/ToolPack"
+    },
+    {
+      "name": "TinShovelRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tin_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gmsb/advancement/recipes/tin_shovel_recipe.json",
+          "src/main/resources/data/gmsb/recipe/tin_shovel_recipe.json"
+        ]
+      },
+      "path": "~/Items/ToolPack"
+    },
+    {
+      "name": "TinHoeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tin_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gmsb/recipe/tin_hoe_recipe.json",
+          "src/main/resources/data/gmsb/advancement/recipes/tin_hoe_recipe.json"
+        ]
+      },
+      "path": "~/Items/ToolPack"
+    },
+    {
+      "name": "TinArmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tin_armor",
+      "metadata": {
+        "files": [
+          "src/main/java/org/gsdistance/grimm/gmsb/item/TinArmorItem.java",
+          "src/main/resources/assets/gmsb/models/item/tin_armor_boots.json",
+          "src/main/resources/assets/gmsb/items/tin_armor_helmet.json",
+          "src/main/resources/assets/gmsb/items/tin_armor_leggings.json",
+          "src/main/resources/assets/gmsb/models/item/tin_armor_chestplate.json",
+          "src/main/resources/assets/gmsb/items/tin_armor_boots.json",
+          "src/main/resources/assets/gmsb/equipment/tin_armor.json",
+          "src/main/resources/assets/gmsb/models/item/tin_armor_helmet.json",
+          "src/main/resources/assets/gmsb/items/tin_armor_chestplate.json",
+          "src/main/resources/assets/gmsb/models/item/tin_armor_leggings.json"
+        ]
+      },
+      "path": "~/Items/ToolPack"
+    },
+    {
+      "name": "TinArmorHelmetRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tin_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gmsb/recipe/tin_armor_helmet_recipe.json",
+          "src/main/resources/data/gmsb/advancement/recipes/tin_armor_helmet_recipe.json"
+        ]
+      },
+      "path": "~/Items/ToolPack"
+    },
+    {
+      "name": "TinArmorChestplateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tin_armor_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gmsb/recipe/tin_armor_chestplate_recipe.json",
+          "src/main/resources/data/gmsb/advancement/recipes/tin_armor_chestplate_recipe.json"
+        ]
+      },
+      "path": "~/Items/ToolPack"
+    },
+    {
+      "name": "TinArmorLeggingsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tin_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gmsb/recipe/tin_armor_leggings_recipe.json",
+          "src/main/resources/data/gmsb/advancement/recipes/tin_armor_leggings_recipe.json"
+        ]
+      },
+      "path": "~/Items/ToolPack"
+    },
+    {
+      "name": "TinArmorBootsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tin_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gmsb/advancement/recipes/tin_armor_boots_recipe.json",
+          "src/main/resources/data/gmsb/recipe/tin_armor_boots_recipe.json"
+        ]
+      },
+      "path": "~/Items/ToolPack"
+    },
+    {
+      "name": "ErrorCircle",
+      "type": "particle",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "error_circle",
+      "metadata": {
+        "files": [
+          "src/main/java/org/gsdistance/grimm/gmsb/client/particle/ErrorCircleParticle.java",
+          "src/main/resources/assets/gmsb/particles/error_circle.json"
+        ]
+      },
+      "path": "~/Particles"
+    },
+    {
+      "name": "Logo",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "logo",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gmsb/models/item/logo.json",
+          "src/main/java/org/gsdistance/grimm/gmsb/item/LogoItem.java",
+          "src/main/resources/assets/gmsb/items/logo.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "GrimmiteNugget",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grimmite_nugget",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gmsb/items/grimmite_nugget.json",
+          "src/main/java/org/gsdistance/grimm/gmsb/item/GrimmiteNuggetItem.java",
+          "src/main/resources/assets/gmsb/models/item/grimmite_nugget.json"
+        ]
+      },
+      "path": "~/Items/MaterialPack"
+    },
+    {
+      "name": "TinNugget",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tin_nugget",
+      "metadata": {
+        "files": [
+          "src/main/java/org/gsdistance/grimm/gmsb/item/TinNuggetItem.java",
+          "src/main/resources/assets/gmsb/models/item/tin_nugget.json",
+          "src/main/resources/assets/gmsb/items/tin_nugget.json"
+        ]
+      },
+      "path": "~/Items/MaterialPack"
+    },
+    {
+      "name": "GrimmiteNuggetRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grimmite_nugget_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gmsb/recipe/grimmite_nugget_recipe.json",
+          "src/main/resources/data/gmsb/advancement/recipes/grimmite_nugget_recipe.json"
+        ]
+      },
+      "path": "~/Items/MaterialPack"
+    },
+    {
+      "name": "TinNuggetRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tin_nugget_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gmsb/recipe/tin_nugget_recipe.json",
+          "src/main/resources/data/gmsb/advancement/recipes/tin_nugget_recipe.json"
+        ]
+      },
+      "path": "~/Items/MaterialPack"
+    },
+    {
+      "name": "TinIngotRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tin_ingot_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gmsb/advancement/recipes/tin_ingot_recipe.json",
+          "src/main/resources/data/gmsb/recipe/tin_ingot_recipe.json"
+        ]
+      },
+      "path": "~/Items/MaterialPack"
+    },
+    {
+      "name": "StartupEvent",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "startup_event",
+      "metadata": {
+        "dependencies": [],
+        "files": [
+          "src/main/java/org/gsdistance/grimm/gmsb/procedures/StartupEventProcedure.java"
+        ]
+      },
+      "path": "~/Events"
+    },
+    {
+      "name": "RootAdv",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "root_adv",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gmsb/advancement/root_adv.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "JoinEvent",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "join_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/org/gsdistance/grimm/gmsb/procedures/JoinEventProcedure.java"
+        ]
+      },
+      "path": "~/Events"
+    },
+    {
+      "name": "CoalDust",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coal_dust",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gmsb/items/coal_dust.json",
+          "src/main/java/org/gsdistance/grimm/gmsb/item/CoalDustItem.java",
+          "src/main/resources/assets/gmsb/models/item/coal_dust.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "IronDust",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_dust",
+      "metadata": {
+        "files": [
+          "src/main/java/org/gsdistance/grimm/gmsb/item/IronDustItem.java",
+          "src/main/resources/assets/gmsb/models/item/iron_dust.json",
+          "src/main/resources/assets/gmsb/items/iron_dust.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "ZincIngot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zinc_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/org/gsdistance/grimm/gmsb/item/ZincIngotItem.java",
+          "src/main/resources/assets/gmsb/models/item/zinc_ingot.json",
+          "src/main/resources/assets/gmsb/items/zinc_ingot.json"
+        ]
+      },
+      "path": "~/Items/MaterialPack"
+    },
+    {
+      "name": "ZincOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zinc_ore",
+      "metadata": {
+        "files": [
+          "src/main/java/org/gsdistance/grimm/gmsb/block/ZincOreBlock.java",
+          "src/main/resources/assets/gmsb/models/item/zinc_ore.json",
+          "src/main/resources/data/gmsb/neoforge/biome_modifier/zinc_ore_biome_modifier.json",
+          "src/main/resources/data/gmsb/worldgen/configured_feature/zinc_ore.json",
+          "src/main/resources/data/gmsb/loot_table/blocks/zinc_ore.json",
+          "src/main/resources/data/gmsb/worldgen/placed_feature/zinc_ore.json",
+          "src/main/resources/assets/gmsb/items/zinc_ore.json",
+          "src/main/resources/assets/gmsb/blockstates/zinc_ore.json",
+          "src/main/resources/assets/gmsb/models/block/zinc_ore.json"
+        ]
+      },
+      "path": "~/Items/MaterialPack"
+    },
+    {
+      "name": "ZincBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zinc_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gmsb/loot_table/blocks/zinc_block.json",
+          "src/main/resources/assets/gmsb/items/zinc_block.json",
+          "src/main/resources/assets/gmsb/models/block/zinc_block.json",
+          "src/main/resources/assets/gmsb/blockstates/zinc_block.json",
+          "src/main/java/org/gsdistance/grimm/gmsb/block/ZincBlockBlock.java",
+          "src/main/resources/assets/gmsb/models/item/zinc_block.json"
+        ]
+      },
+      "path": "~/Items/MaterialPack"
+    },
+    {
+      "name": "ZincOreBlockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zinc_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gmsb/recipe/zinc_ore_block_recipe.json",
+          "src/main/resources/data/gmsb/advancement/recipes/zinc_ore_block_recipe.json"
+        ]
+      },
+      "path": "~/Items/MaterialPack"
+    },
+    {
+      "name": "ZincBlockOreRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zinc_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gmsb/advancement/recipes/zinc_block_ore_recipe.json",
+          "src/main/resources/data/gmsb/recipe/zinc_block_ore_recipe.json"
+        ]
+      },
+      "path": "~/Items/MaterialPack"
+    },
+    {
+      "name": "ZincOreSmelting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zinc_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gmsb/recipe/zinc_ore_smelting.json",
+          "src/main/resources/data/gmsb/advancement/recipes/zinc_ore_smelting.json"
+        ]
+      },
+      "path": "~/Items/MaterialPack"
+    },
+    {
+      "name": "ZincPickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zinc_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gmsb/models/item/zinc_pickaxe.json",
+          "src/main/java/org/gsdistance/grimm/gmsb/item/ZincPickaxeItem.java",
+          "src/main/resources/assets/gmsb/items/zinc_pickaxe.json"
+        ]
+      },
+      "path": "~/Items/ToolPack"
+    },
+    {
+      "name": "ZincAxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zinc_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gmsb/items/zinc_axe.json",
+          "src/main/java/org/gsdistance/grimm/gmsb/item/ZincAxeItem.java",
+          "src/main/resources/assets/gmsb/models/item/zinc_axe.json"
+        ]
+      },
+      "path": "~/Items/ToolPack"
+    },
+    {
+      "name": "ZincSword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zinc_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gmsb/models/item/zinc_sword.json",
+          "src/main/java/org/gsdistance/grimm/gmsb/item/ZincSwordItem.java",
+          "src/main/resources/assets/gmsb/items/zinc_sword.json"
+        ]
+      },
+      "path": "~/Items/ToolPack"
+    },
+    {
+      "name": "ZincShovel",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zinc_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gmsb/items/zinc_shovel.json",
+          "src/main/java/org/gsdistance/grimm/gmsb/item/ZincShovelItem.java",
+          "src/main/resources/assets/gmsb/models/item/zinc_shovel.json"
+        ]
+      },
+      "path": "~/Items/ToolPack"
+    },
+    {
+      "name": "ZincHoe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zinc_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gmsb/items/zinc_hoe.json",
+          "src/main/java/org/gsdistance/grimm/gmsb/item/ZincHoeItem.java",
+          "src/main/resources/assets/gmsb/models/item/zinc_hoe.json"
+        ]
+      },
+      "path": "~/Items/ToolPack"
+    },
+    {
+      "name": "ZincPickaxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zinc_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gmsb/recipe/zinc_pickaxe_recipe.json",
+          "src/main/resources/data/gmsb/advancement/recipes/zinc_pickaxe_recipe.json"
+        ]
+      },
+      "path": "~/Items/ToolPack"
+    },
+    {
+      "name": "ZincAxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zinc_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gmsb/recipe/zinc_axe_recipe.json",
+          "src/main/resources/data/gmsb/advancement/recipes/zinc_axe_recipe.json"
+        ]
+      },
+      "path": "~/Items/ToolPack"
+    },
+    {
+      "name": "ZincSwordRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zinc_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gmsb/advancement/recipes/zinc_sword_recipe.json",
+          "src/main/resources/data/gmsb/recipe/zinc_sword_recipe.json"
+        ]
+      },
+      "path": "~/Items/ToolPack"
+    },
+    {
+      "name": "ZincShovelRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zinc_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gmsb/advancement/recipes/zinc_shovel_recipe.json",
+          "src/main/resources/data/gmsb/recipe/zinc_shovel_recipe.json"
+        ]
+      },
+      "path": "~/Items/ToolPack"
+    },
+    {
+      "name": "ZincHoeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zinc_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gmsb/advancement/recipes/zinc_hoe_recipe.json",
+          "src/main/resources/data/gmsb/recipe/zinc_hoe_recipe.json"
+        ]
+      },
+      "path": "~/Items/ToolPack"
+    },
+    {
+      "name": "ZincArmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zinc_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gmsb/items/zinc_armor_helmet.json",
+          "src/main/resources/assets/gmsb/models/item/zinc_armor_helmet.json",
+          "src/main/resources/assets/gmsb/models/item/zinc_armor_chestplate.json",
+          "src/main/resources/assets/gmsb/items/zinc_armor_chestplate.json",
+          "src/main/resources/assets/gmsb/items/zinc_armor_boots.json",
+          "src/main/resources/assets/gmsb/models/item/zinc_armor_leggings.json",
+          "src/main/resources/assets/gmsb/equipment/zinc_armor.json",
+          "src/main/java/org/gsdistance/grimm/gmsb/item/ZincArmorItem.java",
+          "src/main/resources/assets/gmsb/models/item/zinc_armor_boots.json",
+          "src/main/resources/assets/gmsb/items/zinc_armor_leggings.json"
+        ]
+      },
+      "path": "~/Items/ToolPack"
+    },
+    {
+      "name": "ZincArmorHelmetRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zinc_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gmsb/recipe/zinc_armor_helmet_recipe.json",
+          "src/main/resources/data/gmsb/advancement/recipes/zinc_armor_helmet_recipe.json"
+        ]
+      },
+      "path": "~/Items/ToolPack"
+    },
+    {
+      "name": "ZincArmorChestplateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zinc_armor_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gmsb/advancement/recipes/zinc_armor_chestplate_recipe.json",
+          "src/main/resources/data/gmsb/recipe/zinc_armor_chestplate_recipe.json"
+        ]
+      },
+      "path": "~/Items/ToolPack"
+    },
+    {
+      "name": "ZincArmorLeggingsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zinc_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gmsb/advancement/recipes/zinc_armor_leggings_recipe.json",
+          "src/main/resources/data/gmsb/recipe/zinc_armor_leggings_recipe.json"
+        ]
+      },
+      "path": "~/Items/ToolPack"
+    },
+    {
+      "name": "ZincArmorBootsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zinc_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gmsb/advancement/recipes/zinc_armor_boots_recipe.json",
+          "src/main/resources/data/gmsb/recipe/zinc_armor_boots_recipe.json"
+        ]
+      },
+      "path": "~/Items/ToolPack"
+    },
+    {
+      "name": "DespawnWandLivingEntityIsHitWithItem",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "despawn_wand_living_entity_is_hit_with_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/org/gsdistance/grimm/gmsb/procedures/DespawnWandLivingEntityIsHitWithItemProcedure.java"
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "DespawnWand",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "despawn_wand",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gmsb/models/item/despawn_wand.json",
+          "src/main/java/org/gsdistance/grimm/gmsb/item/DespawnWandItem.java",
+          "src/main/resources/assets/gmsb/items/despawn_wand.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "SteelDust",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_dust",
+      "metadata": {
+        "files": [
+          "src/main/java/org/gsdistance/grimm/gmsb/item/SteelDustItem.java",
+          "src/main/resources/assets/gmsb/items/steel_dust.json",
+          "src/main/resources/assets/gmsb/models/item/steel_dust.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "IronHammer",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_hammer",
+      "metadata": {
+        "files": [
+          "src/main/java/org/gsdistance/grimm/gmsb/item/IronHammerItem.java",
+          "src/main/resources/assets/gmsb/models/item/iron_hammer.json",
+          "src/main/resources/assets/gmsb/items/iron_hammer.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "TinHammer",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tin_hammer",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gmsb/models/item/tin_hammer.json",
+          "src/main/java/org/gsdistance/grimm/gmsb/item/TinHammerItem.java",
+          "src/main/resources/assets/gmsb/items/tin_hammer.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "ZincHammer",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zinc_hammer",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gmsb/models/item/zinc_hammer.json",
+          "src/main/java/org/gsdistance/grimm/gmsb/item/ZincHammerItem.java",
+          "src/main/resources/assets/gmsb/items/zinc_hammer.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "NetheriteHammer",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_hammer",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gmsb/items/netherite_hammer.json",
+          "src/main/resources/assets/gmsb/models/item/netherite_hammer.json",
+          "src/main/java/org/gsdistance/grimm/gmsb/item/NetheriteHammerItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "WoodenHammer",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wooden_hammer",
+      "metadata": {
+        "files": [
+          "src/main/java/org/gsdistance/grimm/gmsb/item/WoodenHammerItem.java",
+          "src/main/resources/assets/gmsb/items/wooden_hammer.json",
+          "src/main/resources/assets/gmsb/models/item/wooden_hammer.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "StoneHammer",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_hammer",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gmsb/models/item/stone_hammer.json",
+          "src/main/resources/assets/gmsb/items/stone_hammer.json",
+          "src/main/java/org/gsdistance/grimm/gmsb/item/StoneHammerItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "SteelHammer",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_hammer",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gmsb/models/item/steel_hammer.json",
+          "src/main/java/org/gsdistance/grimm/gmsb/item/SteelHammerItem.java",
+          "src/main/resources/assets/gmsb/items/steel_hammer.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "GrimmiteHammer",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grimmite_hammer",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gmsb/items/grimmite_hammer.json",
+          "src/main/java/org/gsdistance/grimm/gmsb/item/GrimmiteHammerItem.java",
+          "src/main/resources/assets/gmsb/models/item/grimmite_hammer.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "Tier0Item",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tier_0_item",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gmsb/items/tier_0_item.json",
+          "src/main/java/org/gsdistance/grimm/gmsb/item/Tier0ItemItem.java",
+          "src/main/resources/assets/gmsb/models/item/tier_0_item.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "Tier1Item",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tier_1_item",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gmsb/models/item/tier_1_item.json",
+          "src/main/java/org/gsdistance/grimm/gmsb/item/Tier1ItemItem.java",
+          "src/main/resources/assets/gmsb/items/tier_1_item.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "Tier2Item",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tier_2_item",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gmsb/models/item/tier_2_item.json",
+          "src/main/resources/assets/gmsb/items/tier_2_item.json",
+          "src/main/java/org/gsdistance/grimm/gmsb/item/Tier2ItemItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "Tier3Item",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tier_3_item",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gmsb/models/item/tier_3_item.json",
+          "src/main/resources/assets/gmsb/items/tier_3_item.json",
+          "src/main/java/org/gsdistance/grimm/gmsb/item/Tier3ItemItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "Tier4Item",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tier_4_item",
+      "metadata": {
+        "files": [
+          "src/main/java/org/gsdistance/grimm/gmsb/item/Tier4ItemItem.java",
+          "src/main/resources/assets/gmsb/items/tier_4_item.json",
+          "src/main/resources/assets/gmsb/models/item/tier_4_item.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "Tier5Item",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tier_5_item",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gmsb/models/item/tier_5_item.json",
+          "src/main/resources/assets/gmsb/items/tier_5_item.json",
+          "src/main/java/org/gsdistance/grimm/gmsb/item/Tier5ItemItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "Steel",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel",
+      "metadata": {
+        "files": [
+          "src/main/java/org/gsdistance/grimm/gmsb/item/SteelItem.java",
+          "src/main/resources/assets/gmsb/items/steel.json",
+          "src/main/resources/assets/gmsb/models/item/steel.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "TemperedSteel",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tempered_steel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gmsb/models/item/tempered_steel.json",
+          "src/main/java/org/gsdistance/grimm/gmsb/item/TemperedSteelItem.java",
+          "src/main/resources/assets/gmsb/items/tempered_steel.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "GalvanizedSteel",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "galvanized_steel",
+      "metadata": {
+        "files": [
+          "src/main/java/org/gsdistance/grimm/gmsb/item/GalvanizedSteelItem.java",
+          "src/main/resources/assets/gmsb/models/item/galvanized_steel.json",
+          "src/main/resources/assets/gmsb/items/galvanized_steel.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "HotSteel",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hot_steel",
+      "metadata": {
+        "files": [
+          "src/main/java/org/gsdistance/grimm/gmsb/item/HotSteelItem.java",
+          "src/main/resources/assets/gmsb/models/item/hot_steel.json",
+          "src/main/resources/assets/gmsb/items/hot_steel.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "HotSteelRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hot_steel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gmsb/recipe/hot_steel_recipe.json",
+          "src/main/resources/data/gmsb/advancement/recipes/hot_steel_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "WoodenHammerRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wooden_hammer_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gmsb/recipe/wooden_hammer_recipe.json",
+          "src/main/resources/data/gmsb/advancement/recipes/wooden_hammer_recipe.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "StoneHammerRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_hammer_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gmsb/recipe/stone_hammer_recipe.json",
+          "src/main/resources/data/gmsb/advancement/recipes/stone_hammer_recipe.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "IronHammerRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_hammer_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gmsb/advancement/recipes/iron_hammer_recipe.json",
+          "src/main/resources/data/gmsb/recipe/iron_hammer_recipe.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "TinHammerRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tin_hammer_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gmsb/recipe/tin_hammer_recipe.json",
+          "src/main/resources/data/gmsb/advancement/recipes/tin_hammer_recipe.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "ZincHammerRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zinc_hammer_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gmsb/recipe/zinc_hammer_recipe.json",
+          "src/main/resources/data/gmsb/advancement/recipes/zinc_hammer_recipe.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "NetheriteHammerRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_hammer_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gmsb/advancement/recipes/netherite_hammer_recipe.json",
+          "src/main/resources/data/gmsb/recipe/netherite_hammer_recipe.json"
+        ]
+      },
+      "path": "~/Items"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:ZincBlock",
+      "~CUSTOM:ZincOre",
+      "~CUSTOM:TinBlock",
+      "~CUSTOM:TinOre",
+      "~CUSTOM:GrimmiteBlock",
+      "~CUSTOM:GrimmiteOre"
+    ],
+    "BLOCKS:minecraft:needs_diamond_tool": [
+      "~CUSTOM:GrimmiteBlock",
+      "~CUSTOM:GrimmiteOre"
+    ],
+    "ITEMS:minecraft:enchantable/durability": [
+      "~CUSTOM:GrimmiteHammer",
+      "~CUSTOM:SteelHammer",
+      "~CUSTOM:StoneHammer",
+      "~CUSTOM:WoodenHammer",
+      "~CUSTOM:NetheriteHammer",
+      "~CUSTOM:ZincHammer",
+      "~CUSTOM:TinHammer",
+      "~CUSTOM:IronHammer",
+      "~CUSTOM:MortarAndPestle"
+    ],
+    "ITEMS:mod:cannable": [
+      "Items.COOKED_FISH#0",
+      "Items.COOKED_FISH#1",
+      "Items.COOKED_PORKCHOP",
+      "Items.COOKED_BEEF",
+      "Items.COOKED_CHICKEN",
+      "Items.COOKED_RABBIT",
+      "Items.COOKED_MUTTON"
+    ],
+    "ITEMS:minecraft:meat": [
+      "~CUSTOM:TinCanFull"
+    ],
+    "BLOCKS:minecraft:needs_stone_tool": [
+      "~CUSTOM:ZincBlock",
+      "~CUSTOM:ZincOre",
+      "~CUSTOM:TinBlock",
+      "~CUSTOM:TinOre"
+    ],
+    "ITEMS:minecraft:pickaxes": [
+      "~CUSTOM:ZincPickaxe",
+      "~CUSTOM:TinPickaxe"
+    ],
+    "ITEMS:gmsb:tin_pickaxe_repair_items": [
+      "~CUSTOM:TinIngot"
+    ],
+    "ITEMS:minecraft:axes": [
+      "~CUSTOM:ZincAxe",
+      "~CUSTOM:TinAxe"
+    ],
+    "ITEMS:gmsb:tin_axe_repair_items": [
+      "~CUSTOM:TinIngot"
+    ],
+    "ITEMS:minecraft:swords": [
+      "~CUSTOM:ZincSword",
+      "~CUSTOM:TinSword"
+    ],
+    "ITEMS:gmsb:tin_sword_repair_items": [
+      "~CUSTOM:TinIngot"
+    ],
+    "ITEMS:minecraft:shovels": [
+      "~CUSTOM:ZincShovel",
+      "~CUSTOM:TinShovel"
+    ],
+    "ITEMS:gmsb:tin_shovel_repair_items": [
+      "~CUSTOM:TinIngot"
+    ],
+    "ITEMS:minecraft:hoes": [
+      "~CUSTOM:ZincHoe",
+      "~CUSTOM:TinHoe"
+    ],
+    "ITEMS:gmsb:tin_hoe_repair_items": [
+      "~CUSTOM:TinIngot"
+    ],
+    "ITEMS:minecraft:head_armor": [
+      "~CUSTOM:ZincArmor.helmet",
+      "~CUSTOM:TinArmor.helmet"
+    ],
+    "ITEMS:minecraft:chest_armor": [
+      "~CUSTOM:ZincArmor.body",
+      "~CUSTOM:TinArmor.body"
+    ],
+    "ITEMS:minecraft:leg_armor": [
+      "~CUSTOM:ZincArmor.legs",
+      "~CUSTOM:TinArmor.legs"
+    ],
+    "ITEMS:minecraft:foot_armor": [
+      "~CUSTOM:ZincArmor.boots",
+      "~CUSTOM:TinArmor.boots"
+    ],
+    "ITEMS:gmsb:tin_armor_repair_items": [
+      "~CUSTOM:TinIngot"
+    ],
+    "ITEMS:mod:gmsaddons": [
+      "CUSTOM:Logo"
+    ],
+    "ITEMS:mod:tier1": [
+      "Items.NETHERITE_INGOT",
+      "Blocks.REINFORCED_DEEPSLATE",
+      "TAG:mod:tier5",
+      "TAG:mod:tier4",
+      "TAG:mod:tier3",
+      "TAG:mod:tier2",
+      "CUSTOM:Tier1Item"
+    ],
+    "ITEMS:mod:tier2": [
+      "CUSTOM:GrimmiteIngot",
+      "TAG:mod:tier5",
+      "TAG:mod:tier4",
+      "TAG:mod:tier3",
+      "CUSTOM:Tier2Item"
+    ],
+    "ITEMS:mod:tier3": [
+      "CUSTOM:Floatinger",
+      "TAG:mod:tier5",
+      "TAG:mod:tier4hammers",
+      "CUSTOM:Tier3Item"
+    ],
+    "ITEMS:mod:tier4": [
+      "TAG:mod:tier5",
+      "CUSTOM:Tier4Item"
+    ],
+    "ITEMS:mod:tier5": [
+      "CUSTOM:LeThing",
+      "CUSTOM:Tier5Item"
+    ],
+    "ITEMS:mod:hammers": [
+      "CUSTOM:WoodenHammer",
+      "CUSTOM:StoneHammer",
+      "TAG:mod:tier1hammers",
+      "TAG:mod:tier2hammers",
+      "TAG:mod:tier3hammers",
+      "TAG:mod:tier4hammers",
+      "TAG:mod:tier5hammers"
+    ],
+    "ITEMS:gmsb:zinc_pickaxe_repair_items": [
+      "~CUSTOM:ZincIngot"
+    ],
+    "ITEMS:gmsb:zinc_axe_repair_items": [
+      "~CUSTOM:ZincIngot"
+    ],
+    "ITEMS:gmsb:zinc_sword_repair_items": [
+      "~CUSTOM:ZincIngot"
+    ],
+    "ITEMS:gmsb:zinc_shovel_repair_items": [
+      "~CUSTOM:ZincIngot"
+    ],
+    "ITEMS:gmsb:zinc_hoe_repair_items": [
+      "~CUSTOM:ZincIngot"
+    ],
+    "ITEMS:gmsb:zinc_armor_repair_items": [
+      "~CUSTOM:ZincIngot"
+    ],
+    "ITEMS:mod:tier0": [
+      "CUSTOM:TinIngot",
+      "CUSTOM:ZincIngot",
+      "TAG:mod:tier5",
+      "TAG:mod:tier4",
+      "TAG:mod:tier3",
+      "TAG:mod:tier2",
+      "TAG:mod:tier1",
+      "CUSTOM:Tier0Item"
+    ],
+    "ITEMS:mod:dust": [],
+    "ITEMS:mod:tier1hammers": [
+      "CUSTOM:IronHammer",
+      "CUSTOM:TinHammer",
+      "CUSTOM:ZincHammer",
+      "TAG:mod:tier5hammers",
+      "TAG:mod:tier4hammers",
+      "TAG:mod:tier3hammers",
+      "TAG:mod:tier2hammers"
+    ],
+    "ITEMS:mod:tier2hammers": [
+      "CUSTOM:SteelHammer",
+      "TAG:mod:tier5hammers",
+      "TAG:mod:tier4hammers",
+      "TAG:mod:tier3hammers"
+    ],
+    "ITEMS:mod:tier3hammers": [
+      "CUSTOM:NetheriteHammer",
+      "TAG:mod:tier5hammers",
+      "TAG:mod:tier4hammers"
+    ],
+    "ITEMS:mod:tier4hammers": [
+      "CUSTOM:GrimmiteHammer",
+      "TAG:mod:tier5hammers"
+    ],
+    "ITEMS:mod:tier5hammers": []
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "item_group.gmsl.base_creative_tab": "Grimm\u0027s Mod Lite",
+      "item.gmsl.dummy_spawn_egg": "Dummy Spawn Egg",
+      "entity.gmsl.dummy": "Dummy",
+      "item.gmsl.base_creative_tab_item": "Base Creative Tab Item",
+      "item.gmsl.le_thing": "Bro why do you have this",
+      "item.gmsl.grimmite_ingot": "Grimmite",
+      "item.gmsl.grimmite_ore": "Grimmite Ore",
+      "item.gmsl.grimmite_block": "Block of Grimmite",
+      "item.gmsl.mortar": "Mortar",
+      "item.gmsl.mortar_and_pestle": "Mortar And Pestle",
+      "item.gmsl.stone_stick": "Stone Stick",
+      "item_group.gmsbase.base_creative_tab": "Grimm\u0027s Mod Lite",
+      "entity.gmsbase.dummy": "Dummy",
+      "item.gmsbase.dummy_spawn_egg": "Dummy Spawn Egg",
+      "item.gmsbase.base_creative_tab_item": "Base Creative Tab Item",
+      "item.gmsbase.le_thing": "Bro why do you have this",
+      "item.gmsbase.grimmite_ingot": "Grimmite",
+      "item.gmsbase.grimmite_ore": "Grimmite Ore",
+      "item.gmsbase.grimmite_block": "Block of Grimmite",
+      "item.gmsbase.mortar": "Mortar",
+      "item.gmsbase.mortar_and_pestle": "Mortar And Pestle",
+      "item.gmsbase.stone_stick": "Stone Stick",
+      "item.gmsbase.floatinger": "Floatinger",
+      "item.gmsbase.tin_can": "Tin Can",
+      "item.gmsbase.tin_soda_can": "Soda Can",
+      "item.gmsbase.tin_can_full": "Tin Can (Full)",
+      "item.gmsbase.pull_tab": "Pull Tab",
+      "item_group.gmsb.base_creative_tab": "Grimm\u0027s Mod Base",
+      "entity.gmsb.dummy": "Dummy",
+      "item.gmsb.dummy_spawn_egg": "Dummy Spawn Egg",
+      "item.gmsb.le_thing": "Bro why do you have this",
+      "item.gmsb.grimmite_ingot": "Grimmite",
+      "item.gmsb.grimmite_ore": "Grimmite Ore",
+      "item.gmsb.grimmite_block": "Block of Grimmite",
+      "item.gmsb.mortar": "Mortar",
+      "item.gmsb.mortar_and_pestle": "Mortar And Pestle",
+      "item.gmsb.stone_stick": "Stone Stick",
+      "item.gmsb.floatinger": "Floatinger",
+      "item.gmsb.tin_can": "Tin Can",
+      "item.gmsb.tin_soda_can": "Soda Can",
+      "item.gmsb.tin_can_full": "Tin Can (Full)",
+      "item.gmsb.pull_tab": "Pull Tab",
+      "item.gmsb.tin_ingot": "Tin",
+      "item.gmsb.tin_ore": "Tin Ore",
+      "item.gmsb.tin_block": "Block of Tin",
+      "item.gmsb.tin_pickaxe": "Tin Pickaxe",
+      "item.gmsb.tin_axe": "Tin Axe",
+      "item.gmsb.tin_sword": "Tin Sword",
+      "item.gmsb.tin_shovel": "Tin Shovel",
+      "item.gmsb.tin_hoe": "Tin Hoe",
+      "item.gmsb.tin_armor_helmet": "Tin Helmet",
+      "item.gmsb.tin_armor_leggings": "Tin Leggings",
+      "item.gmsb.tin_armor_boots": "Tin Boots",
+      "item.gmsb.tin_armor_chestplate": "Tin Chestplate",
+      "item.gmsb.logo": "Logo",
+      "item.gmsb.grimmite_nugget": "Grimmite Nugget",
+      "item.gmsb.tin_nugget": "Tin Nugget",
+      "advancements.root_adv.descr": "Download Grimm\u0027s Mod Base, unlock every other Grimm\u0027s Mod",
+      "advancements.root_adv.title": "Grimm\u0027s Mod Base",
+      "item.gmsb.coal_dust": "Coal Dust",
+      "item.gmsb.iron_dust": "Iron Dust",
+      "item.gmsb.zinc_ingot": "Zinc",
+      "item.gmsb.zinc_ore": "Zinc Ore",
+      "item.gmsb.zinc_block": "Block of Zinc",
+      "item.gmsb.zinc_pickaxe": "Zinc Pickaxe",
+      "item.gmsb.zinc_axe": "Zinc Axe",
+      "item.gmsb.zinc_sword": "Zinc Sword",
+      "item.gmsb.zinc_shovel": "Zinc Shovel",
+      "item.gmsb.zinc_hoe": "Zinc Hoe",
+      "item.gmsb.zinc_armor_helmet": "Zinc Helmet",
+      "item.gmsb.zinc_armor_chestplate": "Zinc Chestplate",
+      "item.gmsb.zinc_armor_leggings": "Zinc Leggings",
+      "item.gmsb.zinc_armor_boots": "Zinc Boots",
+      "item.gmsb.despawn_wand": "Despawn Wand",
+      "item.gmsb.despawn_wand.description_0": "Creative Item",
+      "item.gmsb.steel_dust": "Steel Dust",
+      "item.gmsb.iron_hammer": "Iron Hammer",
+      "item.gmsb.tin_hammer": "Tin Hammer",
+      "item.gmsb.zinc_hammer": "Zinc Hammer",
+      "item.gmsb.netherite_hammer": "Netherite Hammer",
+      "item.gmsb.wooden_hammer": "Wooden Hammer",
+      "item.gmsb.stone_hammer": "Stone Hammer",
+      "item.gmsb.steel_hammer": "Steel Hammer",
+      "item.gmsb.grimmite_hammer": "Grimmite Hammer",
+      "item.gmsb.tier_0_item": "Tier 0 Item",
+      "item.gmsb.tier_1_item": "Tier 1 Item",
+      "item.gmsb.tier_2_item": "Tier 2 Item",
+      "item.gmsb.tier_3_item": "Tier 3 Item",
+      "item.gmsb.tier_4_item": "Tier 4 Item",
+      "item.gmsb.tier_5_item": "Tier 5 Item",
+      "item.gmsb.steel": "Steel",
+      "item.gmsb.tempered_steel": "Tempered Steel",
+      "item.gmsb.galvanized_steel": "Galvanized Steel",
+      "item.gmsb.hot_steel": "Hot Steel"
+    }
+  },
+  "metadata": {
+    "files": [
+      "src/main/java/org/gsdistance/grimm/gmsb/init/GmsbModTabs.java",
+      "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/resources/pack.mcmeta",
+      "src/main/java/org/gsdistance/grimm/gmsb/GmsbMod.java",
+      "src/main/java/org/gsdistance/grimm/gmsb/init/GmsbModParticles.java",
+      "src/main/java/org/gsdistance/grimm/gmsb/init/GmsbModParticleTypes.java",
+      "src/main/java/org/gsdistance/grimm/gmsb/init/GmsbModBlocks.java",
+      "src/main/java/org/gsdistance/grimm/gmsb/init/GmsbModItems.java",
+      "src/main/java/org/gsdistance/grimm/gmsb/init/GmsbModEntityRenderers.java",
+      "src/main/java/org/gsdistance/grimm/gmsb/init/GmsbModEntities.java"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Entitites",
+        "children": []
+      },
+      {
+        "name": "Creative Tabs",
+        "children": []
+      },
+      {
+        "name": "Procedures",
+        "children": []
+      },
+      {
+        "name": "Items",
+        "children": [
+          {
+            "name": "MaterialPack",
+            "children": []
+          },
+          {
+            "name": "Food",
+            "children": []
+          },
+          {
+            "name": "ToolPack",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Recipes",
+        "children": []
+      },
+      {
+        "name": "Particles",
+        "children": []
+      },
+      {
+        "name": "Effect",
+        "children": []
+      },
+      {
+        "name": "Events",
+        "children": []
+      },
+      {
+        "name": "Advancements",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "gmsb",
+    "modName": "Grimm\u0027s Mod Base",
+    "version": "0.0.1",
+    "description": "Grimm\u0027s Mod, now as a series.",
+    "author": "Grimm",
+    "websiteURL": "https://www.gsdistance.org",
+    "license": "MIT License",
+    "serverSideOnly": false,
+    "modPicture": "gmsb_new",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.21.4",
+    "credits": "Grimm, tyuXX, tyuYY, tyuZZ",
+    "modElementsPackage": "org.gsdistance.grimm.gmsb"
+  },
+  "mcreatorVersion": 202500228610
+}

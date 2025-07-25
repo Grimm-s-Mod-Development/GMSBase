@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": "gmsb:tin_ingot"
+  },
+  "result": {
+    "id": "gmsb:tin_block",
+    "count": 1
+  }
+}

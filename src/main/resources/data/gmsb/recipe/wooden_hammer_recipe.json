@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    " b "
+  ],
+  "key": {
+    "a": "#minecraft:logs",
+    "b": "minecraft:stick"
+  },
+  "result": {
+    "id": "gmsb:wooden_hammer",
+    "count": 1
+  }
+}

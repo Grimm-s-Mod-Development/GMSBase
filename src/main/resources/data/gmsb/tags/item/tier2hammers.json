@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "#gmsb:tier3hammers",
+      "required": false
+    },
+    "gmsb:steel_hammer",
+    {
+      "id": "#gmsb:tier5hammers",
+      "required": false
+    },
+    {
+      "id": "#gmsb:tier4hammers",
+      "required": false
+    }
+  ]
+}

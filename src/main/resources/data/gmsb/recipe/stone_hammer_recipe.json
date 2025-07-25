@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    " b "
+  ],
+  "key": {
+    "a": "#c:stones",
+    "b": "minecraft:stick"
+  },
+  "result": {
+    "id": "gmsb:stone_hammer",
+    "count": 1
+  }
+}

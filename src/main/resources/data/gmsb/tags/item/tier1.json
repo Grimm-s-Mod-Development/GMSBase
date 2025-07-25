@@ -1,0 +1,24 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:netherite_ingot",
+    {
+      "id": "#gmsb:tier2",
+      "required": false
+    },
+    {
+      "id": "#gmsb:tier3",
+      "required": false
+    },
+    {
+      "id": "#gmsb:tier4",
+      "required": false
+    },
+    {
+      "id": "#gmsb:tier5",
+      "required": false
+    },
+    "minecraft:reinforced_deepslate",
+    "gmsb:tier_1_item"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "gmsb:zinc_armor"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "gmsb:zinc_armor"
+      }
+    ]
+  }
+}
