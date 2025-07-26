@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:stick",
+    "gmsb:rare_thrash",
+    "gmsb:basic_thrash",
+    "gmsb:epic_thrash",
+    "gmsb:uncommon_thrash",
+    "gmsb:thrash_plus",
+    "gmsb:stone_stick"
+  ]
+}

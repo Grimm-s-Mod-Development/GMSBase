@@ -2,6 +2,10 @@
   "replace": false,
   "values": [
     {
+      "id": "#gmsb:thrash",
+      "required": false
+    },
+    {
       "id": "#gmsb:tier2",
       "required": false
     },

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    " a "
+  ],
+  "key": {
+    "a": "gmsb:steel",
+    "b": "#gmsb:tier1hammers"
+  },
+  "result": {
+    "id": "gmsb:steel_mortar",
+    "count": 1
+  }
+}

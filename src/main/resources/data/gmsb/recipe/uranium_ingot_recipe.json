@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": "gmsb:uranium_nugget"
+  },
+  "result": {
+    "id": "gmsb:uranium_ingot",
+    "count": 1
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "b",
+    "c"
+  ],
+  "key": {
+    "a": "#gmsb:can_mix",
+    "b": "minecraft:slime_block",
+    "c": "minecraft:red_candle"
+  },
+  "result": {
+    "id": "gmsb:pritt",
+    "count": 1
+  }
+}

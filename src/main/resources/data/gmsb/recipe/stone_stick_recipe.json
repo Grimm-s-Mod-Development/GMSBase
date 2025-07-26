@@ -6,10 +6,10 @@
     "a"
   ],
   "key": {
-    "a": "minecraft:cobblestone"
+    "a": "minecraft:smooth_stone"
   },
   "result": {
     "id": "gmsb:stone_stick",
-    "count": 1
+    "count": 4
   }
 }

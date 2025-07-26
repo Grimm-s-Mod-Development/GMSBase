@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "id": "gmsb:legendary_thrash"
+    },
+    "title": {
+      "translate": "advancements.legendary_thrash_adv.title"
+    },
+    "description": {
+      "translate": "advancements.legendary_thrash_adv.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "legendary_thrash_adv_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "gmsb:legendary_thrash"
+            ],
+            "count": {
+              "min": 1,
+              "max": 99
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1000
+  },
+  "parent": "gmsb:epic_thrash_adv"
+}

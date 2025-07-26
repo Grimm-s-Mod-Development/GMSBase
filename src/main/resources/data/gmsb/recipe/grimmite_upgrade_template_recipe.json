@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    "ccc"
+  ],
+  "key": {
+    "a": "gmsb:grimmite_nugget",
+    "b": "minecraft:netherite_upgrade_smithing_template",
+    "c": "gmsb:tungsten_ingot"
+  },
+  "result": {
+    "id": "gmsb:grimmite_upgrade_template",
+    "count": 1
+  }
+}

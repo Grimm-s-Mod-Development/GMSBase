@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "gmsb:thorium_ingot"
+  ],
+  "result": {
+    "id": "gmsb:thorium_nugget",
+    "count": 9
+  }
+}

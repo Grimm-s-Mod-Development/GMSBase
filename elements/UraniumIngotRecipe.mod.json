@@ -1,0 +1,53 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      {
+        "value": "CUSTOM:UraniumNugget"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:UraniumNugget"
+      },
+      {
+        "value": "CUSTOM:UraniumNugget"
+      },
+      {
+        "value": "CUSTOM:UraniumNugget"
+      },
+      {
+        "value": "CUSTOM:UraniumNugget"
+      },
+      {
+        "value": "CUSTOM:UraniumNugget"
+      },
+      {
+        "value": "CUSTOM:UraniumNugget"
+      },
+      {
+        "value": "CUSTOM:UraniumNugget"
+      },
+      {
+        "value": "CUSTOM:UraniumNugget"
+      },
+      {
+        "value": "CUSTOM:UraniumNugget"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:UraniumIngot"
+    },
+    "name": "uranium_ingot_recipe",
+    "namespace": "mod"
+  }
+}

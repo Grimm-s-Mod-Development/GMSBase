@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "gmsb:mortar_and_pestle",
+    "gmsb:steel_mortar_and_pestle",
+    "gmsb:netherite_mortar_and_pestle"
+  ]
+}

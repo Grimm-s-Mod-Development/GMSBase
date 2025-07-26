@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": "gmsb:grimmite_upgrade_template",
+  "base": "gmsb:netherite_hammer",
+  "addition": "gmsb:grimmite_ingot",
+  "result": {
+    "id": "gmsb:grimmite_hammer"
+  }
+}

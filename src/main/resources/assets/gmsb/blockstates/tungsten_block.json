@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "gmsb:block/tungsten_block"
+    }
+  }
+}

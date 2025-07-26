@@ -1500,7 +1500,7 @@
           "src/main/resources/data/gmsb/advancement/recipes/wooden_hammer_recipe.json"
         ]
       },
-      "path": "~/Items"
+      "path": "~/Recipes"
     },
     {
       "name": "StoneHammerRecipe",
@@ -1514,7 +1514,7 @@
           "src/main/resources/data/gmsb/advancement/recipes/stone_hammer_recipe.json"
         ]
       },
-      "path": "~/Items"
+      "path": "~/Recipes"
     },
     {
       "name": "IronHammerRecipe",
@@ -1528,7 +1528,7 @@
           "src/main/resources/data/gmsb/recipe/iron_hammer_recipe.json"
         ]
       },
-      "path": "~/Items"
+      "path": "~/Recipes"
     },
     {
       "name": "TinHammerRecipe",
@@ -1542,7 +1542,7 @@
           "src/main/resources/data/gmsb/advancement/recipes/tin_hammer_recipe.json"
         ]
       },
-      "path": "~/Items"
+      "path": "~/Recipes"
     },
     {
       "name": "ZincHammerRecipe",
@@ -1556,7 +1556,7 @@
           "src/main/resources/data/gmsb/advancement/recipes/zinc_hammer_recipe.json"
         ]
       },
-      "path": "~/Items"
+      "path": "~/Recipes"
     },
     {
       "name": "NetheriteHammerRecipe",
@@ -1570,13 +1570,1101 @@
           "src/main/resources/data/gmsb/recipe/netherite_hammer_recipe.json"
         ]
       },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Pritt",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pritt",
+      "metadata": {
+        "files": [
+          "src/main/java/org/gsdistance/grimm/gmsb/item/PrittItem.java",
+          "src/main/resources/assets/gmsb/items/pritt.json",
+          "src/main/resources/assets/gmsb/models/item/pritt.json"
+        ]
+      },
       "path": "~/Items"
+    },
+    {
+      "name": "PrittSpecialEdition",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pritt_special_edition",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gmsb/items/pritt_special_edition.json",
+          "src/main/resources/assets/gmsb/models/item/pritt_special_edition.json",
+          "src/main/java/org/gsdistance/grimm/gmsb/item/PrittSpecialEditionItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "SteelHammerRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_hammer_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gmsb/recipe/steel_hammer_recipe.json",
+          "src/main/resources/data/gmsb/advancement/recipes/steel_hammer_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "PrittSpecialEditionRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pritt_special_edition_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gmsb/recipe/pritt_special_edition_recipe.json",
+          "src/main/resources/data/gmsb/advancement/recipes/pritt_special_edition_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "PrittRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pritt_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gmsb/recipe/pritt_recipe.json",
+          "src/main/resources/data/gmsb/advancement/recipes/pritt_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "BasicThrash",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "basic_thrash",
+      "metadata": {
+        "files": [
+          "src/main/java/org/gsdistance/grimm/gmsb/item/BasicThrashItem.java",
+          "src/main/resources/assets/gmsb/models/item/basic_thrash.json",
+          "src/main/resources/assets/gmsb/items/basic_thrash.json"
+        ]
+      },
+      "path": "~/Items/Thrash"
+    },
+    {
+      "name": "ThrashPlus",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thrash_plus",
+      "metadata": {
+        "files": [
+          "src/main/java/org/gsdistance/grimm/gmsb/item/ThrashPlusItem.java",
+          "src/main/resources/assets/gmsb/models/item/thrash_plus.json",
+          "src/main/resources/assets/gmsb/items/thrash_plus.json"
+        ]
+      },
+      "path": "~/Items/Thrash"
+    },
+    {
+      "name": "ErrorS",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "error_s",
+      "metadata": {
+        "files": [
+          "src/main/java/org/gsdistance/grimm/gmsb/item/ErrorSItem.java",
+          "src/main/resources/assets/gmsb/models/item/error_s.json",
+          "src/main/resources/assets/gmsb/items/error_s.json"
+        ]
+      },
+      "path": "~/Items/Thrash"
+    },
+    {
+      "name": "ErrorC",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "error_c",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gmsb/models/item/error_c.json",
+          "src/main/java/org/gsdistance/grimm/gmsb/item/ErrorCItem.java",
+          "src/main/resources/assets/gmsb/items/error_c.json"
+        ]
+      },
+      "path": "~/Items/Thrash"
+    },
+    {
+      "name": "Placeholder",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "placeholder",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gmsb/models/item/placeholder.json",
+          "src/main/resources/assets/gmsb/items/placeholder.json",
+          "src/main/java/org/gsdistance/grimm/gmsb/item/PlaceholderItem.java"
+        ]
+      },
+      "path": "~/Items/Thrash"
+    },
+    {
+      "name": "ThrashDeluxe",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thrash_deluxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gmsb/models/item/thrash_deluxe.json",
+          "src/main/java/org/gsdistance/grimm/gmsb/item/ThrashDeluxeItem.java",
+          "src/main/resources/assets/gmsb/items/thrash_deluxe.json"
+        ]
+      },
+      "path": "~/Items/Thrash"
+    },
+    {
+      "name": "UncommonThrash",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uncommon_thrash",
+      "metadata": {
+        "files": [
+          "src/main/java/org/gsdistance/grimm/gmsb/item/UncommonThrashItem.java",
+          "src/main/resources/assets/gmsb/items/uncommon_thrash.json",
+          "src/main/resources/assets/gmsb/models/item/uncommon_thrash.json"
+        ]
+      },
+      "path": "~/Items/Thrash"
+    },
+    {
+      "name": "RareThrash",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rare_thrash",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gmsb/models/item/rare_thrash.json",
+          "src/main/java/org/gsdistance/grimm/gmsb/item/RareThrashItem.java",
+          "src/main/resources/assets/gmsb/items/rare_thrash.json"
+        ]
+      },
+      "path": "~/Items/Thrash"
+    },
+    {
+      "name": "EpicThrash",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "epic_thrash",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gmsb/models/item/epic_thrash.json",
+          "src/main/resources/assets/gmsb/items/epic_thrash.json",
+          "src/main/java/org/gsdistance/grimm/gmsb/item/EpicThrashItem.java"
+        ]
+      },
+      "path": "~/Items/Thrash"
+    },
+    {
+      "name": "LegendaryThrash",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "legendary_thrash",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gmsb/models/item/legendary_thrash.json",
+          "src/main/resources/assets/gmsb/items/legendary_thrash.json",
+          "src/main/java/org/gsdistance/grimm/gmsb/item/LegendaryThrashItem.java"
+        ]
+      },
+      "path": "~/Items/Thrash"
+    },
+    {
+      "name": "ItemBrokenEvent",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "item_broken_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ],
+        "files": [
+          "src/main/java/org/gsdistance/grimm/gmsb/procedures/ItemBrokenEventProcedure.java"
+        ]
+      },
+      "path": "~/Events"
+    },
+    {
+      "name": "BasicThrashAdv",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "basic_thrash_adv",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gmsb/advancement/basic_thrash_adv.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "UncommonThrashAdv",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uncommon_thrash_adv",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gmsb/advancement/uncommon_thrash_adv.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "RareThrashAdv",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rare_thrash_adv",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gmsb/advancement/rare_thrash_adv.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "EpicThrashAdv",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "epic_thrash_adv",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gmsb/advancement/epic_thrash_adv.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "LegendaryThrashAdv",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "legendary_thrash_adv",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gmsb/advancement/legendary_thrash_adv.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "LegendaryThrashRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "legendary_thrash_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gmsb/recipe/legendary_thrash_recipe.json",
+          "src/main/resources/data/gmsb/advancement/recipes/legendary_thrash_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "EpicThrashRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "epic_thrash_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gmsb/recipe/epic_thrash_recipe.json",
+          "src/main/resources/data/gmsb/advancement/recipes/epic_thrash_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RareThrashRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rare_thrash_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gmsb/recipe/rare_thrash_recipe.json",
+          "src/main/resources/data/gmsb/advancement/recipes/rare_thrash_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "UncommonThrashRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uncommon_thrash_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gmsb/recipe/uncommon_thrash_recipe.json",
+          "src/main/resources/data/gmsb/advancement/recipes/uncommon_thrash_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "ThrashPlusRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thrash_plus_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gmsb/advancement/recipes/thrash_plus_recipe.json",
+          "src/main/resources/data/gmsb/recipe/thrash_plus_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "IronDustRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_dust_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gmsb/advancement/recipes/iron_dust_recipe.json",
+          "src/main/resources/data/gmsb/recipe/iron_dust_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "CoalDustRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coal_dust_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gmsb/advancement/recipes/coal_dust_recipe.json",
+          "src/main/resources/data/gmsb/recipe/coal_dust_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "ThrashDeluxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thrash_deluxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gmsb/advancement/recipes/thrash_deluxe_recipe.json",
+          "src/main/resources/data/gmsb/recipe/thrash_deluxe_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "WoodenHammerAdv",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wooden_hammer_adv",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gmsb/advancement/wooden_hammer_adv.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "SteelMortar",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_mortar",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gmsb/models/item/steel_mortar.json",
+          "src/main/resources/assets/gmsb/items/steel_mortar.json",
+          "src/main/java/org/gsdistance/grimm/gmsb/item/SteelMortarItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "SteelMortarAndPestle",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_mortar_and_pestle",
+      "metadata": {
+        "files": [
+          "src/main/java/org/gsdistance/grimm/gmsb/item/SteelMortarAndPestleItem.java",
+          "src/main/resources/assets/gmsb/items/steel_mortar_and_pestle.json",
+          "src/main/resources/assets/gmsb/models/item/steel_mortar_and_pestle.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "NetheriteMortar",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_mortar",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gmsb/models/item/netherite_mortar.json",
+          "src/main/resources/assets/gmsb/items/netherite_mortar.json",
+          "src/main/java/org/gsdistance/grimm/gmsb/item/NetheriteMortarItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "NetheriteMortarAndPestle",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_mortar_and_pestle",
+      "metadata": {
+        "files": [
+          "src/main/java/org/gsdistance/grimm/gmsb/item/NetheriteMortarAndPestleItem.java",
+          "src/main/resources/assets/gmsb/models/item/netherite_mortar_and_pestle.json",
+          "src/main/resources/assets/gmsb/items/netherite_mortar_and_pestle.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "SteelMortarRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_mortar_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gmsb/recipe/steel_mortar_recipe.json",
+          "src/main/resources/data/gmsb/advancement/recipes/steel_mortar_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "SteelMortarAndPestleRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_mortar_and_pestle_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gmsb/advancement/recipes/steel_mortar_and_pestle_recipe.json",
+          "src/main/resources/data/gmsb/recipe/steel_mortar_and_pestle_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "NetheriteMortarRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_mortar_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gmsb/recipe/netherite_mortar_recipe.json",
+          "src/main/resources/data/gmsb/advancement/recipes/netherite_mortar_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "NetheriteMortarAndPestleRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_mortar_and_pestle_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gmsb/advancement/recipes/netherite_mortar_and_pestle_recipe.json",
+          "src/main/resources/data/gmsb/recipe/netherite_mortar_and_pestle_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "TungstenIngot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tungsten_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gmsb/items/tungsten_ingot.json",
+          "src/main/resources/assets/gmsb/models/item/tungsten_ingot.json",
+          "src/main/java/org/gsdistance/grimm/gmsb/item/TungstenIngotItem.java"
+        ]
+      },
+      "path": "~/Items/MaterialPack"
+    },
+    {
+      "name": "TungstenOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tungsten_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gmsb/models/block/tungsten_ore.json",
+          "src/main/resources/data/gmsb/worldgen/configured_feature/tungsten_ore.json",
+          "src/main/java/org/gsdistance/grimm/gmsb/block/TungstenOreBlock.java",
+          "src/main/resources/assets/gmsb/models/item/tungsten_ore.json",
+          "src/main/resources/data/gmsb/worldgen/placed_feature/tungsten_ore.json",
+          "src/main/resources/assets/gmsb/items/tungsten_ore.json",
+          "src/main/resources/assets/gmsb/blockstates/tungsten_ore.json",
+          "src/main/resources/data/gmsb/neoforge/biome_modifier/tungsten_ore_biome_modifier.json",
+          "src/main/resources/data/gmsb/loot_table/blocks/tungsten_ore.json"
+        ]
+      },
+      "path": "~/Items/MaterialPack"
+    },
+    {
+      "name": "TungstenBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tungsten_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gmsb/loot_table/blocks/tungsten_block.json",
+          "src/main/resources/assets/gmsb/models/item/tungsten_block.json",
+          "src/main/resources/assets/gmsb/blockstates/tungsten_block.json",
+          "src/main/resources/assets/gmsb/items/tungsten_block.json",
+          "src/main/resources/assets/gmsb/models/block/tungsten_block.json",
+          "src/main/java/org/gsdistance/grimm/gmsb/block/TungstenBlockBlock.java"
+        ]
+      },
+      "path": "~/Items/MaterialPack"
+    },
+    {
+      "name": "TungstenOreBlockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tungsten_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gmsb/recipe/tungsten_ore_block_recipe.json",
+          "src/main/resources/data/gmsb/advancement/recipes/tungsten_ore_block_recipe.json"
+        ]
+      },
+      "path": "~/Items/MaterialPack"
+    },
+    {
+      "name": "TungstenBlockOreRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tungsten_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gmsb/advancement/recipes/tungsten_block_ore_recipe.json",
+          "src/main/resources/data/gmsb/recipe/tungsten_block_ore_recipe.json"
+        ]
+      },
+      "path": "~/Items/MaterialPack"
+    },
+    {
+      "name": "TungstenOreSmelting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tungsten_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gmsb/advancement/recipes/tungsten_ore_smelting.json",
+          "src/main/resources/data/gmsb/recipe/tungsten_ore_smelting.json"
+        ]
+      },
+      "path": "~/Items/MaterialPack"
+    },
+    {
+      "name": "ThoriumIngot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thorium_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gmsb/items/thorium_ingot.json",
+          "src/main/java/org/gsdistance/grimm/gmsb/item/ThoriumIngotItem.java",
+          "src/main/resources/assets/gmsb/models/item/thorium_ingot.json"
+        ]
+      },
+      "path": "~/Items/MaterialPack"
+    },
+    {
+      "name": "ThoriumOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thorium_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gmsb/worldgen/placed_feature/thorium_ore.json",
+          "src/main/resources/assets/gmsb/models/block/thorium_ore.json",
+          "src/main/resources/assets/gmsb/models/item/thorium_ore.json",
+          "src/main/resources/assets/gmsb/items/thorium_ore.json",
+          "src/main/java/org/gsdistance/grimm/gmsb/block/ThoriumOreBlock.java",
+          "src/main/resources/data/gmsb/neoforge/biome_modifier/thorium_ore_biome_modifier.json",
+          "src/main/resources/data/gmsb/worldgen/configured_feature/thorium_ore.json",
+          "src/main/resources/data/gmsb/loot_table/blocks/thorium_ore.json",
+          "src/main/resources/assets/gmsb/blockstates/thorium_ore.json"
+        ]
+      },
+      "path": "~/Items/MaterialPack"
+    },
+    {
+      "name": "ThoriumBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thorium_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gmsb/loot_table/blocks/thorium_block.json",
+          "src/main/resources/assets/gmsb/items/thorium_block.json",
+          "src/main/resources/assets/gmsb/blockstates/thorium_block.json",
+          "src/main/resources/assets/gmsb/models/block/thorium_block.json",
+          "src/main/java/org/gsdistance/grimm/gmsb/block/ThoriumBlockBlock.java",
+          "src/main/resources/assets/gmsb/models/item/thorium_block.json"
+        ]
+      },
+      "path": "~/Items/MaterialPack"
+    },
+    {
+      "name": "ThoriumOreBlockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thorium_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gmsb/advancement/recipes/thorium_ore_block_recipe.json",
+          "src/main/resources/data/gmsb/recipe/thorium_ore_block_recipe.json"
+        ]
+      },
+      "path": "~/Items/MaterialPack"
+    },
+    {
+      "name": "ThoriumBlockOreRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thorium_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gmsb/recipe/thorium_block_ore_recipe.json",
+          "src/main/resources/data/gmsb/advancement/recipes/thorium_block_ore_recipe.json"
+        ]
+      },
+      "path": "~/Items/MaterialPack"
+    },
+    {
+      "name": "ThoriumOreSmelting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thorium_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gmsb/advancement/recipes/thorium_ore_smelting.json",
+          "src/main/resources/data/gmsb/recipe/thorium_ore_smelting.json"
+        ]
+      },
+      "path": "~/Items/MaterialPack"
+    },
+    {
+      "name": "UraniumIngot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranium_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gmsb/items/uranium_ingot.json",
+          "src/main/resources/assets/gmsb/models/item/uranium_ingot.json",
+          "src/main/java/org/gsdistance/grimm/gmsb/item/UraniumIngotItem.java"
+        ]
+      },
+      "path": "~/Items/MaterialPack"
+    },
+    {
+      "name": "UraniumOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranium_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gmsb/worldgen/placed_feature/uranium_ore.json",
+          "src/main/resources/assets/gmsb/items/uranium_ore.json",
+          "src/main/java/org/gsdistance/grimm/gmsb/block/UraniumOreBlock.java",
+          "src/main/resources/data/gmsb/worldgen/configured_feature/uranium_ore.json",
+          "src/main/resources/data/gmsb/loot_table/blocks/uranium_ore.json",
+          "src/main/resources/assets/gmsb/blockstates/uranium_ore.json",
+          "src/main/resources/assets/gmsb/models/block/uranium_ore.json",
+          "src/main/resources/assets/gmsb/models/item/uranium_ore.json",
+          "src/main/resources/data/gmsb/neoforge/biome_modifier/uranium_ore_biome_modifier.json"
+        ]
+      },
+      "path": "~/Items/MaterialPack"
+    },
+    {
+      "name": "UraniumBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranium_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gmsb/models/block/uranium_block.json",
+          "src/main/resources/data/gmsb/loot_table/blocks/uranium_block.json",
+          "src/main/resources/assets/gmsb/items/uranium_block.json",
+          "src/main/resources/assets/gmsb/models/item/uranium_block.json",
+          "src/main/resources/assets/gmsb/blockstates/uranium_block.json",
+          "src/main/java/org/gsdistance/grimm/gmsb/block/UraniumBlockBlock.java"
+        ]
+      },
+      "path": "~/Items/MaterialPack"
+    },
+    {
+      "name": "UraniumOreBlockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranium_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gmsb/recipe/uranium_ore_block_recipe.json",
+          "src/main/resources/data/gmsb/advancement/recipes/uranium_ore_block_recipe.json"
+        ]
+      },
+      "path": "~/Items/MaterialPack"
+    },
+    {
+      "name": "UraniumBlockOreRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranium_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gmsb/recipe/uranium_block_ore_recipe.json",
+          "src/main/resources/data/gmsb/advancement/recipes/uranium_block_ore_recipe.json"
+        ]
+      },
+      "path": "~/Items/MaterialPack"
+    },
+    {
+      "name": "UraniumOreSmelting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranium_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gmsb/advancement/recipes/uranium_ore_smelting.json",
+          "src/main/resources/data/gmsb/recipe/uranium_ore_smelting.json"
+        ]
+      },
+      "path": "~/Items/MaterialPack"
+    },
+    {
+      "name": "TungstenNugget",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tungsten_nugget",
+      "metadata": {
+        "files": [
+          "src/main/java/org/gsdistance/grimm/gmsb/item/TungstenNuggetItem.java",
+          "src/main/resources/assets/gmsb/models/item/tungsten_nugget.json",
+          "src/main/resources/assets/gmsb/items/tungsten_nugget.json"
+        ]
+      },
+      "path": "~/Items/MaterialPack"
+    },
+    {
+      "name": "ThoriumNugget",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thorium_nugget",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gmsb/models/item/thorium_nugget.json",
+          "src/main/java/org/gsdistance/grimm/gmsb/item/ThoriumNuggetItem.java",
+          "src/main/resources/assets/gmsb/items/thorium_nugget.json"
+        ]
+      },
+      "path": "~/Items/MaterialPack"
+    },
+    {
+      "name": "UraniumNugget",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranium_nugget",
+      "metadata": {
+        "files": [
+          "src/main/java/org/gsdistance/grimm/gmsb/item/UraniumNuggetItem.java",
+          "src/main/resources/assets/gmsb/items/uranium_nugget.json",
+          "src/main/resources/assets/gmsb/models/item/uranium_nugget.json"
+        ]
+      },
+      "path": "~/Items/MaterialPack"
+    },
+    {
+      "name": "ZincNugget",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zinc_nugget",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gmsb/models/item/zinc_nugget.json",
+          "src/main/java/org/gsdistance/grimm/gmsb/item/ZincNuggetItem.java",
+          "src/main/resources/assets/gmsb/items/zinc_nugget.json"
+        ]
+      },
+      "path": "~/Items/MaterialPack"
+    },
+    {
+      "name": "ZincNuggetRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zinc_nugget_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gmsb/advancement/recipes/zinc_nugget_recipe.json",
+          "src/main/resources/data/gmsb/recipe/zinc_nugget_recipe.json"
+        ]
+      },
+      "path": "~/Items/MaterialPack"
+    },
+    {
+      "name": "TungstenNuggetRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tungsten_nugget_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gmsb/advancement/recipes/tungsten_nugget_recipe.json",
+          "src/main/resources/data/gmsb/recipe/tungsten_nugget_recipe.json"
+        ]
+      },
+      "path": "~/Items/MaterialPack"
+    },
+    {
+      "name": "ThoriumNuggetRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thorium_nugget_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gmsb/advancement/recipes/thorium_nugget_recipe.json",
+          "src/main/resources/data/gmsb/recipe/thorium_nugget_recipe.json"
+        ]
+      },
+      "path": "~/Items/MaterialPack"
+    },
+    {
+      "name": "UraniumNuggetRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranium_nugget_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gmsb/advancement/recipes/uranium_nugget_recipe.json",
+          "src/main/resources/data/gmsb/recipe/uranium_nugget_recipe.json"
+        ]
+      },
+      "path": "~/Items/MaterialPack"
+    },
+    {
+      "name": "ZincIngotRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zinc_ingot_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gmsb/recipe/zinc_ingot_recipe.json",
+          "src/main/resources/data/gmsb/advancement/recipes/zinc_ingot_recipe.json"
+        ]
+      },
+      "path": "~/Items/MaterialPack"
+    },
+    {
+      "name": "TungstenIngotRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tungsten_ingot_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gmsb/recipe/tungsten_ingot_recipe.json",
+          "src/main/resources/data/gmsb/advancement/recipes/tungsten_ingot_recipe.json"
+        ]
+      },
+      "path": "~/Items/MaterialPack"
+    },
+    {
+      "name": "ThoriumIngotRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thorium_ingot_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gmsb/recipe/thorium_ingot_recipe.json",
+          "src/main/resources/data/gmsb/advancement/recipes/thorium_ingot_recipe.json"
+        ]
+      },
+      "path": "~/Items/MaterialPack"
+    },
+    {
+      "name": "UraniumIngotRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranium_ingot_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gmsb/advancement/recipes/uranium_ingot_recipe.json",
+          "src/main/resources/data/gmsb/recipe/uranium_ingot_recipe.json"
+        ]
+      },
+      "path": "~/Items/MaterialPack"
+    },
+    {
+      "name": "SteelStick",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_stick",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gmsb/items/steel_stick.json",
+          "src/main/resources/assets/gmsb/models/item/steel_stick.json",
+          "src/main/java/org/gsdistance/grimm/gmsb/item/SteelStickItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "SteelStickRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_stick_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gmsb/advancement/recipes/steel_stick_recipe.json",
+          "src/main/resources/data/gmsb/recipe/steel_stick_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "GrimmiteHammerRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grimmite_hammer_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gmsb/recipe/grimmite_hammer_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "GrimmiteUpgradeTemplate",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grimmite_upgrade_template",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gmsb/items/grimmite_upgrade_template.json",
+          "src/main/resources/assets/gmsb/models/item/grimmite_upgrade_template.json",
+          "src/main/java/org/gsdistance/grimm/gmsb/item/GrimmiteUpgradeTemplateItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "GrimmiteUpgradeTemplateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grimmite_upgrade_template_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gmsb/advancement/recipes/grimmite_upgrade_template_recipe.json",
+          "src/main/resources/data/gmsb/recipe/grimmite_upgrade_template_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "tag_elements": {
     "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:UraniumBlock",
+      "~CUSTOM:UraniumOre",
+      "~CUSTOM:ThoriumBlock",
+      "~CUSTOM:ThoriumOre",
+      "~CUSTOM:TungstenBlock",
+      "~CUSTOM:TungstenOre",
       "~CUSTOM:ZincBlock",
       "~CUSTOM:ZincOre",
       "~CUSTOM:TinBlock",
@@ -1585,10 +2673,20 @@
       "~CUSTOM:GrimmiteOre"
     ],
     "BLOCKS:minecraft:needs_diamond_tool": [
+      "~CUSTOM:UraniumBlock",
+      "~CUSTOM:UraniumOre",
+      "~CUSTOM:ThoriumBlock",
+      "~CUSTOM:ThoriumOre",
+      "~CUSTOM:TungstenBlock",
+      "~CUSTOM:TungstenOre",
       "~CUSTOM:GrimmiteBlock",
       "~CUSTOM:GrimmiteOre"
     ],
     "ITEMS:minecraft:enchantable/durability": [
+      "~CUSTOM:NetheriteMortarAndPestle",
+      "~CUSTOM:SteelMortarAndPestle",
+      "~CUSTOM:PrittSpecialEdition",
+      "~CUSTOM:Pritt",
       "~CUSTOM:GrimmiteHammer",
       "~CUSTOM:SteelHammer",
       "~CUSTOM:StoneHammer",
@@ -1694,7 +2792,8 @@
       "CUSTOM:Floatinger",
       "TAG:mod:tier5",
       "TAG:mod:tier4hammers",
-      "CUSTOM:Tier3Item"
+      "CUSTOM:Tier3Item",
+      "CUSTOM:LegendaryThrash"
     ],
     "ITEMS:mod:tier4": [
       "TAG:mod:tier5",
@@ -1739,7 +2838,8 @@
       "TAG:mod:tier3",
       "TAG:mod:tier2",
       "TAG:mod:tier1",
-      "CUSTOM:Tier0Item"
+      "CUSTOM:Tier0Item",
+      "TAG:mod:thrash"
     ],
     "ITEMS:mod:dust": [],
     "ITEMS:mod:tier1hammers": [
@@ -1766,7 +2866,25 @@
       "CUSTOM:GrimmiteHammer",
       "TAG:mod:tier5hammers"
     ],
-    "ITEMS:mod:tier5hammers": []
+    "ITEMS:mod:tier5hammers": [],
+    "ITEMS:mod:glue": [
+      "CUSTOM:PrittSpecialEdition",
+      "CUSTOM:Pritt"
+    ],
+    "ITEMS:mod:can_mix": [
+      "CUSTOM:MortarAndPestle",
+      "CUSTOM:SteelMortarAndPestle",
+      "CUSTOM:NetheriteMortarAndPestle"
+    ],
+    "ITEMS:mod:thrash": [
+      "CUSTOM:BasicThrash",
+      "CUSTOM:UncommonThrash",
+      "CUSTOM:RareThrash",
+      "CUSTOM:EpicThrash",
+      "CUSTOM:ThrashPlus",
+      "CUSTOM:StoneStick",
+      "Items.STICK"
+    ]
   },
   "tab_element_order": {},
   "language_map": {
@@ -1828,8 +2946,8 @@
       "item.gmsb.logo": "Logo",
       "item.gmsb.grimmite_nugget": "Grimmite Nugget",
       "item.gmsb.tin_nugget": "Tin Nugget",
-      "advancements.root_adv.descr": "Download Grimm\u0027s Mod Base, unlock every other Grimm\u0027s Mod",
-      "advancements.root_adv.title": "Grimm\u0027s Mod Base",
+      "advancements.root_adv.descr": "Download Grimm\u0027s Mod Base, unlocking every other Grimm\u0027s series mod!",
+      "advancements.root_adv.title": "Grimm\u0027s Mod*",
       "item.gmsb.coal_dust": "Coal Dust",
       "item.gmsb.iron_dust": "Iron Dust",
       "item.gmsb.zinc_ingot": "Zinc",
@@ -1864,7 +2982,51 @@
       "item.gmsb.steel": "Steel",
       "item.gmsb.tempered_steel": "Tempered Steel",
       "item.gmsb.galvanized_steel": "Galvanized Steel",
-      "item.gmsb.hot_steel": "Hot Steel"
+      "item.gmsb.hot_steel": "Hot Steel",
+      "item.gmsb.pritt": "Pritt",
+      "item.gmsb.pritt_special_edition": "Pritt Special Edition",
+      "item.gmsb.stone_stick.description_0": "Why did you think this was a good idea?",
+      "item.gmsb.basic_thrash": "Thrash",
+      "item.gmsb.thrash_plus": "Thrash Plus",
+      "item.gmsb.error_s": "Error",
+      "item.gmsb.error_c": "Error",
+      "item.gmsb.placeholder": "Placeholder",
+      "item.gmsb.thrash_deluxe": "Thrash Deluxe",
+      "item.gmsb.uncommon_thrash": "Uncommon Thrash",
+      "item.gmsb.rare_thrash": "Rare Thrash",
+      "item.gmsb.epic_thrash": "Epic Thrash",
+      "item.gmsb.legendary_thrash": "Legendary Thrash",
+      "advancements.basic_thrash_adv.title": "The beginning of the Thrash Empire.",
+      "advancements.basic_thrash_adv.descr": "Gain thrash by breaking an item.",
+      "advancements.uncommon_thrash_adv.descr": "The rarer the better right? I don\u0027t know if that\u0027s true for thrash...",
+      "advancements.uncommon_thrash_adv.title": "Uncommon Thrash",
+      "advancements.rare_thrash_adv.title": "Rare Thrash",
+      "advancements.rare_thrash_adv.descr": "Gotta catch em\u0027 all!",
+      "advancements.epic_thrash_adv.title": "Epic Thrash",
+      "advancements.epic_thrash_adv.descr": "Ultimate thrash? Or is it?",
+      "advancements.legendary_thrash_adv.descr": "Gain the allmighty thrash lord, the Legendary Thrash",
+      "advancements.legendary_thrash_adv.title": "THRASH-TASTIC",
+      "advancements.wooden_hammer_adv.title": "Wooden Hammer",
+      "advancements.wooden_hammer_adv.descr": "Hammah go bonk",
+      "item.gmsb.steel_mortar": "Steel Mortar",
+      "item.gmsb.steel_mortar_and_pestle": "Steel Mortar And Pestle",
+      "item.gmsb.netherite_mortar": "Netherite Mortar",
+      "item.gmsb.netherite_mortar_and_pestle": "Netherite Mortar And Pestle",
+      "item.gmsb.tungsten_ingot": "Tungsten",
+      "item.gmsb.tungsten_ore": "Tungsten Ore",
+      "item.gmsb.tungsten_block": "Block of Tungsten",
+      "item.gmsb.thorium_ingot": "Thorium",
+      "item.gmsb.thorium_ore": "Thorium Ore",
+      "item.gmsb.thorium_block": "Block of Thorium",
+      "item.gmsb.uranium_ingot": "Uranium",
+      "item.gmsb.uranium_ore": "Uranium Ore",
+      "item.gmsb.uranium_block": "Block of Uranium",
+      "item.gmsb.tungsten_nugget": "Tungsten Nugget",
+      "item.gmsb.thorium_nugget": "Thorium Nugget",
+      "item.gmsb.uranium_nugget": "Uranium Nugget",
+      "item.gmsb.zinc_nugget": "Zinc Nugget",
+      "item.gmsb.steel_stick": "Steel Stick",
+      "item.gmsb.grimmite_upgrade_template": "Grimmite Upgrade Template"
     }
   },
   "metadata": {
@@ -1909,6 +3071,10 @@
           },
           {
             "name": "ToolPack",
+            "children": []
+          },
+          {
+            "name": "Thrash",
             "children": []
           }
         ]

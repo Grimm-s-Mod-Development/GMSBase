@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": "gmsb:uranium_ingot"
+  },
+  "result": {
+    "id": "gmsb:uranium_block",
+    "count": 1
+  }
+}

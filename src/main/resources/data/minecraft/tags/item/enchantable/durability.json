@@ -6,9 +6,13 @@
     "gmsb:zinc_hammer",
     "gmsb:tin_hammer",
     "gmsb:iron_hammer",
+    "gmsb:pritt_special_edition",
     "gmsb:steel_hammer",
-    "gmsb:wooden_hammer",
     "gmsb:stone_hammer",
+    "gmsb:steel_mortar_and_pestle",
+    "gmsb:pritt",
+    "gmsb:netherite_mortar_and_pestle",
+    "gmsb:wooden_hammer",
     "gmsb:grimmite_hammer"
   ]
 }

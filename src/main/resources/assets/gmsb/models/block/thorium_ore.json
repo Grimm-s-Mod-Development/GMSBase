@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "gmsb:block/thorium_ore",
+    "particle": "gmsb:block/thorium_ore"
+  },
+  "render_type": "solid"
+}

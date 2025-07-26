@@ -1,11 +1,17 @@
 {
   "replace": false,
   "values": [
+    "gmsb:tungsten_ore",
     "gmsb:tin_block",
+    "gmsb:uranium_ore",
+    "gmsb:uranium_block",
     "gmsb:grimmite_block",
     "gmsb:zinc_ore",
     "gmsb:zinc_block",
+    "gmsb:thorium_ore",
     "gmsb:tin_ore",
-    "gmsb:grimmite_ore"
+    "gmsb:thorium_block",
+    "gmsb:grimmite_ore",
+    "gmsb:tungsten_block"
   ]
 }

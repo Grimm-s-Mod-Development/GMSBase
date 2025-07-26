@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "abb",
+    "bcb",
+    "bbb"
+  ],
+  "key": {
+    "a": "#gmsb:glue",
+    "b": "gmsb:basic_thrash",
+    "c": "gmsb:thrash_plus"
+  },
+  "result": {
+    "id": "gmsb:uncommon_thrash",
+    "count": 1
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "abc",
+    "ded",
+    "fbg"
+  ],
+  "key": {
+    "a": "#gmsb:tier2hammers",
+    "b": "gmsb:rare_thrash",
+    "c": "#gmsb:tier2",
+    "d": "gmsb:epic_thrash",
+    "e": "gmsb:thrash_deluxe",
+    "f": "gmsb:grimmite_nugget",
+    "g": "#gmsb:tier1"
+  },
+  "result": {
+    "id": "gmsb:legendary_thrash",
+    "count": 1
+  }
+}

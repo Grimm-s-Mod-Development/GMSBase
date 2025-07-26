@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "id": "gmsb:wooden_hammer"
+    },
+    "title": {
+      "translate": "advancements.wooden_hammer_adv.title"
+    },
+    "description": {
+      "translate": "advancements.wooden_hammer_adv.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "wooden_hammer_adv_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "gmsb:wooden_hammer"
+            ],
+            "count": {
+              "min": 1,
+              "max": 99
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 5
+  },
+  "parent": "gmsb:root_adv"
+}

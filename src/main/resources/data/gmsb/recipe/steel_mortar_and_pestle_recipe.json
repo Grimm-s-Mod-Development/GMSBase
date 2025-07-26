@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "gmsb:steel_mortar",
+    "gmsb:hot_steel",
+    "#gmsb:tier1hammers"
+  ],
+  "result": {
+    "id": "gmsb:steel_mortar_and_pestle",
+    "count": 1
+  }
+}

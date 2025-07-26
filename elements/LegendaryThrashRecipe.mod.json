@@ -1,0 +1,59 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      {
+        "value": "CUSTOM:ThrashDeluxe"
+      },
+      {
+        "value": "CUSTOM:EpicThrash"
+      },
+      {
+        "value": "CUSTOM:RareThrash"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "TAG:mod:tier2hammers"
+      },
+      {
+        "value": "CUSTOM:RareThrash"
+      },
+      {
+        "value": "TAG:mod:tier2"
+      },
+      {
+        "value": "CUSTOM:EpicThrash"
+      },
+      {
+        "value": "CUSTOM:ThrashDeluxe"
+      },
+      {
+        "value": "CUSTOM:EpicThrash"
+      },
+      {
+        "value": "CUSTOM:GrimmiteNugget"
+      },
+      {
+        "value": "CUSTOM:RareThrash"
+      },
+      {
+        "value": "TAG:mod:tier1"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:LegendaryThrash"
+    },
+    "name": "legendary_thrash_recipe",
+    "namespace": "mod"
+  }
+}

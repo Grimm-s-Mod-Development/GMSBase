@@ -10,6 +10,7 @@
     {
       "id": "#gmsb:tier4hammers",
       "required": false
-    }
+    },
+    "gmsb:legendary_thrash"
   ]
 }

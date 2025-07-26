@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": "gmsb:grimmite_nugget",
+    "b": "gmsb:pritt"
+  },
+  "result": {
+    "id": "gmsb:pritt_special_edition",
+    "count": 1
+  }
+}

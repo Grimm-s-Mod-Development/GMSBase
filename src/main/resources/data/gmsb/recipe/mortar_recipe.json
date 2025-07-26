@@ -2,11 +2,12 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    "a a",
+    "aba",
     " a "
   ],
   "key": {
-    "a": "minecraft:smooth_stone"
+    "a": "minecraft:smooth_stone",
+    "b": "#gmsb:hammers"
   },
   "result": {
     "id": "gmsb:mortar",

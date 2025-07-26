@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:coal",
+    "#gmsb:hammers"
+  ],
+  "result": {
+    "id": "gmsb:coal_dust",
+    "count": 1
+  }
+}

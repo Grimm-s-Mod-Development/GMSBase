@@ -70,6 +70,34 @@ public class GmsbModTabs {
 				tabData.accept(GmsbModItems.TEMPERED_STEEL.get());
 				tabData.accept(GmsbModItems.GALVANIZED_STEEL.get());
 				tabData.accept(GmsbModItems.HOT_STEEL.get());
+				tabData.accept(GmsbModItems.PRITT.get());
+				tabData.accept(GmsbModItems.PRITT_SPECIAL_EDITION.get());
+				tabData.accept(GmsbModItems.BASIC_THRASH.get());
+				tabData.accept(GmsbModItems.THRASH_PLUS.get());
+				tabData.accept(GmsbModItems.THRASH_DELUXE.get());
+				tabData.accept(GmsbModItems.UNCOMMON_THRASH.get());
+				tabData.accept(GmsbModItems.RARE_THRASH.get());
+				tabData.accept(GmsbModItems.EPIC_THRASH.get());
+				tabData.accept(GmsbModItems.LEGENDARY_THRASH.get());
+				tabData.accept(GmsbModItems.STEEL_MORTAR.get());
+				tabData.accept(GmsbModItems.STEEL_MORTAR_AND_PESTLE.get());
+				tabData.accept(GmsbModItems.NETHERITE_MORTAR.get());
+				tabData.accept(GmsbModItems.NETHERITE_MORTAR_AND_PESTLE.get());
+				tabData.accept(GmsbModItems.TUNGSTEN_INGOT.get());
+				tabData.accept(GmsbModBlocks.TUNGSTEN_ORE.get().asItem());
+				tabData.accept(GmsbModBlocks.TUNGSTEN_BLOCK.get().asItem());
+				tabData.accept(GmsbModItems.THORIUM_INGOT.get());
+				tabData.accept(GmsbModBlocks.THORIUM_ORE.get().asItem());
+				tabData.accept(GmsbModBlocks.THORIUM_BLOCK.get().asItem());
+				tabData.accept(GmsbModItems.URANIUM_INGOT.get());
+				tabData.accept(GmsbModBlocks.URANIUM_ORE.get().asItem());
+				tabData.accept(GmsbModBlocks.URANIUM_BLOCK.get().asItem());
+				tabData.accept(GmsbModItems.TUNGSTEN_NUGGET.get());
+				tabData.accept(GmsbModItems.THORIUM_NUGGET.get());
+				tabData.accept(GmsbModItems.URANIUM_NUGGET.get());
+				tabData.accept(GmsbModItems.ZINC_NUGGET.get());
+				tabData.accept(GmsbModItems.STEEL_STICK.get());
+				tabData.accept(GmsbModItems.GRIMMITE_UPGRADE_TEMPLATE.get());
 			}).build());
 
 	@SubscribeEvent

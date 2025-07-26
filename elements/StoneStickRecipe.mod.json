@@ -3,11 +3,11 @@
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
-    "recipeRetstackSize": 1,
+    "recipeRetstackSize": 4,
     "group": "",
     "unlockingItems": [
       {
-        "value": "Blocks.COBBLESTONE"
+        "value": "Blocks.SMOOTH_STONE"
       }
     ],
     "cookingBookCategory": "MISC",
@@ -29,7 +29,7 @@
         "value": ""
       },
       {
-        "value": "Blocks.COBBLESTONE"
+        "value": "Blocks.SMOOTH_STONE"
       },
       {
         "value": ""
@@ -38,7 +38,7 @@
         "value": ""
       },
       {
-        "value": "Blocks.COBBLESTONE"
+        "value": "Blocks.SMOOTH_STONE"
       },
       {
         "value": ""
