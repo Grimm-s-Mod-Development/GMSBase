@@ -142,7 +142,7 @@
         "value": "TAG:stone_ore_replaceables"
       }
     ],
-    "generationShape": "UNIFORM",
+    "generationShape": "TRIANGLE",
     "frequencyPerChunks": 4,
     "frequencyOnChunk": 2,
     "minGenerateHeight": 1,

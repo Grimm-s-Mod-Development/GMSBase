@@ -2653,6 +2653,34 @@
         ]
       },
       "path": "~/Recipes"
+    },
+    {
+      "name": "SteelDustRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_dust_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gmsb/advancement/recipes/steel_dust_recipe.json",
+          "src/main/resources/data/gmsb/recipe/steel_dust_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "SteelRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gmsb/recipe/steel_recipe.json",
+          "src/main/resources/data/gmsb/advancement/recipes/steel_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
     }
   ],
   "variable_elements": [],

@@ -12,7 +12,7 @@
     "textureBoots": "zinc_boots",
     "creativeTabs": [
       {
-        "value": "COMBAT"
+        "value": "CUSTOM:BaseCreativeTab"
       }
     ],
     "armorTextureFile": "zinc",

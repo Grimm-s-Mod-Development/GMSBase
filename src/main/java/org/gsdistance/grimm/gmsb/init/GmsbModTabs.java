@@ -7,17 +7,12 @@ import org.gsdistance.grimm.gmsb.GmsbMod;
 
 import net.neoforged.neoforge.registries.DeferredRegister;
 import net.neoforged.neoforge.registries.DeferredHolder;
-import net.neoforged.neoforge.event.BuildCreativeModeTabContentsEvent;
-import net.neoforged.fml.common.EventBusSubscriber;
-import net.neoforged.bus.api.SubscribeEvent;
 
 import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.network.chat.Component;
 import net.minecraft.core.registries.Registries;
 
-@EventBusSubscriber(bus = EventBusSubscriber.Bus.MOD)
 public class GmsbModTabs {
 	public static final DeferredRegister<CreativeModeTab> REGISTRY = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, GmsbMod.MODID);
 	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> BASE_CREATIVE_TAB = REGISTRY.register("base_creative_tab",
@@ -50,6 +45,18 @@ public class GmsbModTabs {
 				tabData.accept(GmsbModItems.TIN_NUGGET.get());
 				tabData.accept(GmsbModItems.COAL_DUST.get());
 				tabData.accept(GmsbModItems.IRON_DUST.get());
+				tabData.accept(GmsbModItems.ZINC_INGOT.get());
+				tabData.accept(GmsbModBlocks.ZINC_ORE.get().asItem());
+				tabData.accept(GmsbModBlocks.ZINC_BLOCK.get().asItem());
+				tabData.accept(GmsbModItems.ZINC_PICKAXE.get());
+				tabData.accept(GmsbModItems.ZINC_AXE.get());
+				tabData.accept(GmsbModItems.ZINC_SWORD.get());
+				tabData.accept(GmsbModItems.ZINC_SHOVEL.get());
+				tabData.accept(GmsbModItems.ZINC_HOE.get());
+				tabData.accept(GmsbModItems.ZINC_ARMOR_HELMET.get());
+				tabData.accept(GmsbModItems.ZINC_ARMOR_CHESTPLATE.get());
+				tabData.accept(GmsbModItems.ZINC_ARMOR_LEGGINGS.get());
+				tabData.accept(GmsbModItems.ZINC_ARMOR_BOOTS.get());
 				tabData.accept(GmsbModItems.DESPAWN_WAND.get());
 				tabData.accept(GmsbModItems.STEEL_DUST.get());
 				tabData.accept(GmsbModItems.IRON_HAMMER.get());
@@ -99,25 +106,4 @@ public class GmsbModTabs {
 				tabData.accept(GmsbModItems.STEEL_STICK.get());
 				tabData.accept(GmsbModItems.GRIMMITE_UPGRADE_TEMPLATE.get());
 			}).build());
-
-	@SubscribeEvent
-	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
-		if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-			tabData.accept(GmsbModItems.ZINC_INGOT.get());
-		} else if (tabData.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
-			tabData.accept(GmsbModBlocks.ZINC_ORE.get().asItem());
-			tabData.accept(GmsbModBlocks.ZINC_BLOCK.get().asItem());
-		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
-			tabData.accept(GmsbModItems.ZINC_PICKAXE.get());
-			tabData.accept(GmsbModItems.ZINC_AXE.get());
-			tabData.accept(GmsbModItems.ZINC_SHOVEL.get());
-			tabData.accept(GmsbModItems.ZINC_HOE.get());
-		} else if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
-			tabData.accept(GmsbModItems.ZINC_SWORD.get());
-			tabData.accept(GmsbModItems.ZINC_ARMOR_HELMET.get());
-			tabData.accept(GmsbModItems.ZINC_ARMOR_CHESTPLATE.get());
-			tabData.accept(GmsbModItems.ZINC_ARMOR_LEGGINGS.get());
-			tabData.accept(GmsbModItems.ZINC_ARMOR_BOOTS.get());
-		}
-	}
 }

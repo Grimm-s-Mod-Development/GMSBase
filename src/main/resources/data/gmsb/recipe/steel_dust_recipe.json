@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "#gmsb:can_mix",
+    "gmsb:iron_dust",
+    "gmsb:coal_dust"
+  ],
+  "result": {
+    "id": "gmsb:steel_dust",
+    "count": 1
+  }
+}

@@ -15,7 +15,7 @@
     },
     "creativeTabs": [
       {
-        "value": "COMBAT"
+        "value": "CUSTOM:BaseCreativeTab"
       }
     ],
     "efficiency": 6.0,
